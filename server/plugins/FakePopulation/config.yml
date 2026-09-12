@@ -1,0 +1,257 @@
+# FakePopulation 1.2.0
+# Author: NoS1qnal
+# Paper/Purpur 1.21.11 to 26.2
+
+general:
+  enabled: true
+
+# Automatic fake population. Changes are gradual rather than instant.
+population:
+  enabled: false
+  minimum: 3
+  maximum: 12
+  recalculate-seconds: 10
+  target-refresh-seconds: 180
+  changes-per-cycle: 1
+  
+  # Remove fake players as real players join.
+  reduce-for-real-players: true
+  fakes-removed-per-real-player: 1.0
+  minimum-when-real-players-online: 0
+  
+  schedule:
+    enabled: true
+    timezone: Europe/Belgrade
+    periods:
+      morning:
+        from: 08:00
+        to: '14:00'
+        minimum: 2
+        maximum: 6
+      evening:
+        from: '14:00'
+        to: '23:59'
+        minimum: 6
+        maximum: 14
+      night:
+        from: '23:59'
+        to: 08:00
+        minimum: 1
+        maximum: 4
+
+# Fake entries shown in the in-game player list.
+# This uses a dependency-free reflective packet bridge on Paper/Purpur.
+tab:
+  enabled: false
+  display-format: '&7{name}'
+  list-order: 100
+  ping:
+    minimum: 35
+    maximum: 180
+    update-seconds: 20
+
+# Changes only the displayed multiplayer server-list count.
+# It does not add fake Bukkit Player objects and cannot make the server full.
+server-list:
+  enabled: true
+  include-fakes-in-player-count: true
+
+skins:
+  # 1.2.0 does not perform live Mojang/profile HTTP lookups. This prevents
+  # DNS/ConnectException crashes on hosts that block outbound connections.
+  # Cached/supplied skin properties are still used; otherwise a default player skin is used.
+  resolve-online: true
+
+chat:
+  enabled: false
+  format: '&f<{fake}> &f{message}'
+  join-quit-messages: true
+  
+  # Base chance that a fake player replies to a matching real-player message.
+  reply-chance: 0.55
+  reply-cooldown-seconds: 25
+  
+  # Used by legacy chat mode only.
+  reply-delay-ticks-min: 25
+  reply-delay-ticks-max: 80
+  
+  keywords:
+    greetings:
+    - hello
+    - hey
+    - hi
+    - yo
+    - sup
+    help:
+    - help
+    - how do i
+    - where is
+    - command
+    server:
+    - server
+    - smp
+    - shop
+    - spawn
+  
+  periodic:
+    enabled: true
+    minimum-seconds: 90
+    maximum-seconds: 240
+  
+  # Offline contextual chat brain. It uses conversation context + messages.yml and
+  # NEVER performs HTTP/network requests. Built-in chat remains active as fallback.
+  ai:
+    enabled: true
+    mode: local
+    generic-chance: 0.08
+    cooldown-ms: 14000
+    direct-cooldown-ms: 5000
+    memory-lines: 6
+    typing-delay-ticks-min: 18
+    typing-delay-ticks-max: 75
+  
+  # Built-in/template-based natural chat. This is still used for periodic chat,
+  # fake-to-fake conversations and as fallback when the AI-style responder skips a line.
+  human-like:
+    enabled: true
+    
+    # Random ordinary messages get few replies. Questions and direct mentions
+    # are much more likely to get one.
+    generic-reply-chance: 0.16
+    question-reply-chance: 0.62
+    direct-mention-reply-chance: 0.92
+    direct-mention-cooldown-seconds: 8
+    
+    # Prevent one fake name from replying constantly.
+    per-fake-cooldown-seconds: 18
+    anti-repeat-history: 12
+    
+    # More natural reply timing. Longer messages take slightly longer.
+    typing-delay-ticks-min: 18
+    typing-delay-ticks-max: 90
+    characters-per-extra-tick: 7
+    
+    # Small differences in how chat looks. Disable this for exact messages.yml text.
+    style-variation: true
+    lowercase-chance: 0.7
+    drop-ending-punctuation-chance: 0.75
+    typos:
+      enabled: true
+      chance: 0.035
+    
+    keywords:
+      trade:
+      - sell
+      - buy
+      - trade
+      - price
+      - worth
+      - auction
+      - ah
+      - shop
+      pvp:
+      - pvp
+      - fight
+      - 1v1
+      - kill
+      - raid
+      - gear
+    
+    # Sometimes two fake players have a short two-message exchange.
+    fake-conversations:
+      enabled: true
+      chance: 0.32
+      reply-delay-ticks-min: 45
+      reply-delay-ticks-max: 110
+
+# Optional native physical NPC representations.
+# Paper 26.x uses Minecraft's native Mannequin entity: full player model, skin,
+# equipment, movement and combat. No ArmorStand bodies are used.
+npc:
+  enabled: true
+  # Keep this much lower than the total fake TAB population for client FPS.
+  maximum-physical-npcs: 8
+  name-format: '{name}'
+  wander-radius: 10.0
+  walk-speed-per-tick: 0.12
+  held-items:
+  - AIR
+  
+  # Human-like player behaviour. Kept subtle so bots do not jitter or act randomly every second.
+  # Each fake gets a stable personality (idle/social/explorer/miner/builder/pvper) based on its name.
+  behavior:
+    enabled: true
+    look-around: true
+    idle-animations: true
+    random-jumping: true
+    jump-chance: 0.16
+    random-sneaking: true
+    sneak-chance: 0.1
+    random-sprinting: true
+    sprint-chance: 0.22
+    sprint-speed-multiplier: 1.23
+    pause-chance: 0.08
+    follow-nearby-players: true
+    follow-chance: 0.18
+    follow-radius: 16.0
+    aim-inaccuracy: 0.035
+  physical:
+    # Hybrid PvP/PvE combat: target lock, moving-target chase, strafing, facing,
+    # weapon cooldowns, knockback and retaliation. Physical bots can take damage.
+    combat-enabled: true
+    smart-combat: true
+    combat-radius: 12.0
+    attack-reach: 2.9
+    attack-damage: 3.0
+    attack-cooldown-ms: 700
+    attack-jitter-ms: 90
+    strafe-enabled: true
+    strafe-speed: 0.1
+    target-priority: nearest
+    # hostile = hostile mobs; whitelist = only target-mobs; all-living = all non-player living mobs
+    target-mode: hostile
+    target-mobs: []
+    target-scan-ms: 350
+    combat-speed-modifier: 1.28
+    movement-tick-rate: 2
+    jump-velocity: 0.42
+    avoid-cliffs: true
+    stuck-ms: 1200
+    idle-chance: 0.2
+    knockback: 0.34
+    knockback-y: 0.16
+    # Bots can retaliate against a real player that hits their physical body.
+    retaliate-players: true
+    retaliation-seconds: 15
+    # false = bots take normal damage, can die, and are recreated like players returning.
+    invulnerable: false
+    # If enabled, bots may proactively target nearby real players.
+    pvp-enabled: false
+    pvp-lock-ms: 10000
+# Compatibility for commands that normally only suggest real Bukkit players.
+# Fake names are added to common player-target command suggestions.
+command-compat:
+  player-name-suggestions: true
+  spoof-tpa: true
+  commands:
+  - tpa
+  - tpahere
+  - msg
+  - tell
+  - w
+  - whisper
+  - pm
+  - trade
+  - duel
+  - pay
+
+persistence:
+  restore-active-fakes: true
+
+restrictions:
+  maximum-fake-players: 100
+  disabled-worlds:
+  - disabled_world
+
+gui:
+  title: '&0FakePopulation'

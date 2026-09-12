@@ -1,0 +1,61 @@
+# Usernames used by /fp addrandom and the automatic population controller.
+# Every name must be 3-16 characters and contain only letters, numbers or underscores.
+names:
+  - AlexBuilds
+  - BirchBee
+  - BlockyBen
+  - BlueCreeper
+  - CaveRunner
+  - CherryFox
+  - CloudMiner
+  - CoalHunter
+  - CraftyMilo
+  - CreeperKid
+  - CrystalJay
+  - DarkOakDan
+  - DeepSlate
+  - DiamondDuck
+  - EnderEli
+  - FarmGirl
+  - FireAspect
+  - FrostByte
+  - GlowBerry
+  - GoldenAxe
+  - GreenSteve
+  - IronMason
+  - JayPlays
+  - LavaWalker
+  - LuckyPick
+  - MapleMine
+  - MineMango
+  - MossyStone
+  - NetherNate
+  - OakleyMC
+  - PandaCraft
+  - PixelPoppy
+  - QuartzKid
+  - RedstoneRay
+  - RiverBuilds
+  - RubyMiner
+  - ShadowAlex
+  - ShulkerSam
+  - SkyBuilder
+  - SnowyFox
+  - SpiderSlayer
+  - SpruceLuke
+  - StoneGolem
+  - SunnySteve
+  - TheMineWolf
+  - TorchRunner
+  - VillagerVex
+  - VoidWalker
+  - WildAxolotl
+  - ZestyZombie
+
+# Optional skin account overrides. The left side is the fake name.
+# The right side is the Minecraft account whose skin should be requested.
+skins:
+  AlexBuilds: Alex
+  GreenSteve: Steve
+  ShadowAlex: Alex
+  SunnySteve: Steve

@@ -1,0 +1,39 @@
+Messages_prefix: "&#84f542PasiVanish <DARK_GRAY>»<RESET> "
+
+vanish_on: "&aVanish включён для {player}."
+vanish_off: "&cVanish выключен для {player}."
+autovanish_on: "&aАвтоматически включён vanish при входе."
+
+noperm: "&cУ вас нет прав для этой команды!"
+reloadsucces: "&aПлагин успешно перезагружен."
+reloadnoperm: "&cУ вас нет прав для перезагрузки плагина."
+
+
+
+MustProvideName: "&cВы должны указать имя игрока."
+IncorrectName: "&cИгрок с именем {player} не найден."
+CheckMaxPlayers: "&cВы можете проверить только одного игрока!"
+YesVanish: "&aнаходится в режиме vanish."
+NoVanish: "&cне находится в режиме vanish."
+
+listnpperm: "&cУ вас нет прав на просмотр списка игроков в vanish."
+nonplayerlist: "&cНет игроков в режиме vanish."
+abovelist: "&3Игроки в vanish: "
+
+help_above: "&aИспользуйте одну из следующих команд:"
+help_check: "&fПроверить, в vanish ли игрок."
+help_info: "&fПоказать информацию о плагине."
+help_vanish: "&fВключить/выключить vanish."
+help_reload: "&fПерезагрузить конфигурацию."
+help_list: "&fПоказать игроков в vanish."
+help_broadcast: "&fОтправить фальш-сообщение о входе."
+
+noBreak: "&cВы не можете ломать блоки в vanish."
+noPlace: "&cВы не можете ставить блоки в vanish."
+noInteract: "&cВы не можете взаимодействовать с объектами в vanish."
+noMove: "&cВы не можете двигаться в vanish."
+noDrop: "&cВы не можете выбрасывать предметы в vanish."
+noChangeGamemode: "&cВы не можете менять режим игры в vanish."
+noBedLeave: "&cВы не можете вставать с кровати в vanish."
+noBedEnter: "&cВы не можете ложиться в кровать в vanish."
+noSprint: "&cВы не можете бегать в vanish."

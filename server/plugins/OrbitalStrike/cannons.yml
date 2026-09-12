@@ -1,0 +1,110 @@
+cannons:
+  nuke:
+    name: Nuke
+    item:
+      material: FISHING_ROD
+      durability: true
+      max-durability: 1
+    cooldown: -1
+    payload:
+      type: NUKE
+      settings:
+        launch-delay: 10
+        rings: 10
+        tnt-increase: 3
+        yield: 8.0
+        base-tnt: 20
+        fuse-ticks: 80
+        height: 60.0
+  stab_example:
+    name: Stab_Example
+    item:
+      material: FISHING_ROD
+      durability: true
+      max-durability: 5
+    cooldown: 30
+    payload:
+      type: STAB
+      settings:
+        offset: 0.3
+        vertical-step: 2
+        yield: 8.0
+  stab:
+    name: stab
+    item:
+      material: FISHING_ROD
+      durability: true
+      max-durability: 1
+    cooldown: -1
+    payload:
+      type: STAB
+      settings:
+        offset: 0.3
+        vertical-step: 2
+        yield: 8.0
+  emp_example:
+    name: EMP_Example
+    item:
+      material: PRISMARINE_CRYSTALS
+      durability: true
+      max-durability: 8
+    cooldown: 60
+    payload:
+      type: EMP
+      settings:
+        effects:
+        - BLINDNESS:0:20
+        - WEAKNESS:1:600
+        - CONFUSION:4:100
+        - SLOW:1:100
+        pulses: 3
+        pulse-delay: 60
+        destroy-drop-items: false
+        radius: 15.0
+        destroyed-blocks:
+        - REDSTONE
+        - REDSTONE_BLOCK
+        - PISTON
+        - STICKY_PISTON
+        - REPEATER
+        - COMPARATOR
+        - DROPPER
+        - DISPENSER
+        - CRAFTER
+        - OBSERVER
+        - RAIL
+        - ACTIVATOR_RAIL
+        - DETECTOR_RAIL
+        - POWERED_RAIL
+        - DAYLIGHT_DETECTOR
+        - LEVER
+        pulse-speed: 2.5
+  nuke_example:
+    name: Nuke_Example
+    item:
+      material: BLAZE_ROD
+      durability: true
+      max-durability: 3
+    cooldown: 120
+    payload:
+      type: NUKE
+      settings:
+        rings: 8
+        tnt-increase: 2
+        yield: 10.0
+        base-tnt: 15
+        height: 60.0
+  recursion_example:
+    name: Recursion_Example
+    item:
+      material: FIRE_CHARGE
+      durability: false
+      max-durability: 1
+    cooldown: 60
+    payload:
+      type: RECURSION
+      settings:
+        amount: 4
+        level: 3
+        yield: 10.0
+        height: 100.0

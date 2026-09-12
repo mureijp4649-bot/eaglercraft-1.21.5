@@ -1,0 +1,236 @@
+# PasiVanish configuration file
+
+# Available languages:
+# en - English
+# pl - Polish
+# ru - Русский (Russian)
+# it - Italiano
+# de - Deutsch
+# fr - Français
+# es - Español
+# pt-BR - Português Brasileiro
+lang: en
+
+# ==============================
+# ======= OPTIONS SECTION ======
+# ==============================
+Options:
+  # Whether the player has night vision while vanished
+  nightvision: false
+
+  # Whether vanished players can fly
+  vanishfly: false
+
+  # Whether vanished players are invincible
+  godmode: false
+
+  # Automatically enable vanish mode when joining the server (requires pv.autovanish)
+  autovanish: false
+
+  # Allows opening chests silently (like spectator mode)
+  silentchest: true
+
+  # Invisible effect settings
+  InvisibleEffect:
+    enabled: false
+    amplifier: 1
+
+  # Restores vanish state after reconnecting (cancels join/quit messages)
+  restorevanish: false
+
+# ==============================
+# ======== PREVENTIONS =========
+# ==============================
+Prevent:
+  # Prevent vanished players from picking up items
+  pickingitems: false
+
+  # Prevent vanished players from attacking others
+  pvp: false
+
+  # Prevent vanished players from building
+  build: false
+
+  # Prevent vanished players from breaking blocks
+  break: false
+
+  # Prevent vanished players from interacting with blocks or entities
+  interact: false
+
+  # Prevent vanished players from moving
+  move: false
+
+  # Prevent vanished players from dropping items
+  drop: false
+
+  bed:
+    # Prevent entering beds while vanished
+    enter: false
+
+    # Prevent leaving beds while vanished
+    leave: false
+
+  # Prevent changing gamemode while vanished
+  changegamemode: false
+
+  # Prevent sprinting while vanished (currently not working)
+  sprint: false
+
+# ==============================
+# ==== ENABLE VANISH EFFECTS ===
+# ==============================
+Enable_Vanish_Features:
+  # Summon lightning when vanish is enabled
+  Lighting: false
+
+  # Launch a firework when vanish is enabled
+  Firework: false
+
+  # Place TNT when vanish is enabled
+  TnT: false
+
+  # Clear potion effects when vanish is enabled
+  ClearEffects: false
+
+  # Heal player when vanish is enabled
+  Heal: false
+
+  # Feed player when vanish is enabled
+  Feed: false
+
+  # Kill player when vanish is enabled
+  Kill: false
+
+  ChangeGamemode:
+    # Change player gamemode when vanish is enabled
+    enable: false
+
+    # Gamemode to switch to when vanish is enabled
+    gamemode: spectator # survival, creative, adventure, spectator
+
+# ==============================
+# ==== DISABLE VANISH EFFECTS ==
+# ==============================
+Disable_Vanish_Features:
+  # Summon lightning when vanish is disabled
+  Lighting: false
+
+  # Launch a firework when vanish is disabled
+  Firework: false
+
+  # Place TNT when vanish is disabled
+  TnT: false
+
+  # Clear potion effects when vanish is disabled
+  ClearEffects: false
+
+  # Heal player when vanish is disabled
+  Heal: false
+
+  # Feed player when vanish is disabled
+  Feed: false
+
+  # Kill player when vanish is disabled
+  Kill: false
+
+  ChangeGamemode:
+    # Change player gamemode when vanish is disabled
+    enable: false
+
+    # Restore previous gamemode after vanish is disabled
+    restore_old_gamemode: true
+
+    # Default gamemode after vanish is disabled
+    gamemode: survival # survival, creative, adventure, spectator
+
+# ==============================
+# ========= VANISH LEVELS ======
+# ==============================
+Levels:
+  # Enable vanish level feature
+  enable: false
+
+  # Default vanish level
+  default-level: 2
+
+# ==============================
+# ========= BROADCASTS =========
+# ==============================
+Broadcast:
+  # Enable custom join/leave messages
+  enabled: true
+
+  # Join message
+  join: "&e{player} joined the game"
+
+  # Leave message
+  leave: "&e{player} left the game"
+
+# ==============================
+# ======== ACTIONBAR ===========
+# ==============================
+Actionbar:
+  # Enable actionbar message while vanished
+  enabled: true
+
+  # Text displayed on the actionbar
+  text: "&eYou are invisible to other players"
+
+# ==============================
+# ========= BOSSBAR ============
+# ==============================
+Bossbar:
+  # Enable bossbar while vanished
+  enabled: true
+
+  # Bossbar color (BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW)
+  color: "YELLOW"
+
+  # Number of segments (1, 6, 8, 12 or 20)
+  segments: 1
+
+  # Bossbar progress (0–1)
+  progress: 1
+
+  # Text displayed on the bossbar
+  text: "&eYou are invisible to other players"
+
+# ==============================
+# ======== TITLES ==============
+# ==============================
+TitleMessage:
+  # Enable title messages on vanish toggle
+  enabled: false
+
+  # Title and subtitle when vanish is enabled
+  On_Title: "&#84f542Enabled"
+  On_SubTitle: "&#84f542<underlined>Vanish</underlined>"
+  On_fadein: 10
+  On_stay: 60
+  On_fadeout: 20
+
+  # Title and subtitle when vanish is disabled
+  Off_Title: "&cDisabled"
+  Off_SubTitle: "&c&nVanish"
+  Off_fadein: 10
+  Off_stay: 60
+  Off_fadeout: 20
+
+# ==============================
+# ======== 2STEP CHAT ==========
+# ==============================
+2StepChat:
+  # Enable 2-step chat mode
+  enabled: false
+
+  # Enable Paper chat event (recommended)
+  paper_chat_event: false
+
+  # Chat format used in 2StepChat
+  chat_format: "%luckperms_prefix% &r&7<player> &f>> <message>"
+
+# ==============================
+# ============ MORE ============
+# ==============================
+# Enable update checker
+UpdateChecker: true

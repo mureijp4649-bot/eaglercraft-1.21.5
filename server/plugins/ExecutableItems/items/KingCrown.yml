@@ -1,0 +1,844 @@
+# The name or display name
+name: '&e王冠'
+# The lore of the item
+lore:
+- §e【王冠】
+- §r
+- §7ダメージを受けた時、20%の確率で再生IIを3秒付与
+- §r
+- §7右クリックで与えるダメージが20%+受けるダメージが-30%の状態が10秒間継続
+- §r
+- §c・追加エンチャント不可
+- §4・サーバー唯一
+# The material
+material: GOLDEN_HELMET
+# Item Glowing effect
+glow: false
+# Disable the enchant glide effect
+disableEnchantGlide: false
+# Disable item stacking ?
+disableStack: false
+# Keep the item on death ?
+keepItemOnDeath: false
+# Can be used only by the owner
+# ⚠ Require Store item info on true
+canBeUsedOnlyByTheOwner: false
+# Cancel event if not owner
+cancelEventIfNotOwner: false
+# BlackListed Activators
+# (can be used by everyone even if
+# the only owner feature is set to true)
+onlyOwnerBlackListedActivators: []
+# Store item info ?
+# Store the item info like the owner
+storeItemInfo: false
+# Item unbreakable ?
+unbreakable: true
+# The durability feature
+# will be ignored, and the usage
+# feature will be used as durability
+isDurabilityBasedOnUsage: false
+# Cancel the event if the player has no permission
+cancelEventIfNoPermission: false
+# The whitelisted worlds features
+whitelistedWorlds: []
+# The glider
+glider: false
+# Keep the default attributes
+# Only for 1.19+
+keepDefaultAttributes: true
+# For new item LET IT FALSE PLS
+# Otherwise you can let it true
+# if you want to update your old items turn it FALSE
+# But be careful the item tags may change
+# it can impact shopkeeper or custom craft recipe
+# Only for 1.19+
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+# The usage features
+# Increase or Decrease this usage with
+# UsageModification in your activators
+usageFeatures:
+  # The usage of the item
+  # -1 = Infinite
+  # Increase or Decrease this usage with
+  # UsageModification in your activators
+  usage: -1
+  # Is refreshable clean
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# The drop features
+dropFeatures:
+  # Glow drop
+  glowDrop: true
+  # The color of the glow
+  glowDropColor: WHITE
+  # Display custom name above the item
+  displayNameDrop: true
+# The enchantments of the item
+enchantments:
+  enchantment0:
+    enchantment: Protection
+    # The level of the enchantment
+    level: 7
+# The hiders features
+# Hiders to hide:
+# Attributes, Enchants, ...
+hiders:
+  # Hide enchantments
+  hideEnchantments: true
+  # Hide unbreakable
+  hideUnbreakable: true
+  # Hide attributes
+  hideAttributes: false
+  # Hide usage
+  hideUsage: false
+  # Hide destroys
+  hideDestroys: false
+  # Hide placed on
+  hidePlacedOn: false
+  # Hide dye
+  hideDye: false
+  # Hides armor trim details in
+  # armor. Does not hide armor
+  # trim item details
+  hideArmorTrim: false
+  # Hide additional tooltip
+  # This option can no longer hide
+  # armor trim item details in 1.21.5+
+  hideAdditionalTooltip: false
+  # Hide tool tip
+  hideToolTip: false
+# The give first join features
+giveFirstJoinFeatures:
+  # Enable the feature
+  giveFirstJoin: false
+  # The amount to give
+  giveFirstJoinAmount: 1
+  # Slot between 0 and 8 includes
+  giveFirstJoinSlot: 0
+# The restrictions features
+restrictions:
+  # Cancel the placement of the item
+  cancel-item-place: true
+  # Cancel the interactions of the tool
+  cancel-tool-interactions: true
+  # The item can't be
+  # consumed
+  cancel-consumption: true
+  # The horn can't be
+  # interacted
+  cancel-horn: true
+  # The item can't be used
+  # to craft vanilla item
+  cancel-item-craft-no-custom: true
+  # The item can't be
+  # to deposit in a chest
+  cancel-deposit-in-chest: true
+  # The item can't be
+  # to deposit in a furnace
+  cancel-deposit-in-furnace: true
+  # The item can't be
+  # placed in stone cutter
+  cancel-stone-cutter: true
+  # The item can't be
+  # enchanted
+  cancel-enchant: true
+  # The item can't be
+  # placed in an anvil
+  cancel-anvil: true
+  # The item can't be
+  # renamed in an anvil
+  cancel-rename-anvil: true
+  # The item can't be
+  # enchanted in an anvil
+  cancel-enchant-anvil: true
+  # The item can't be
+  # placed on an armorstand
+  cancel-armorstand: true
+  # The item can't be
+  # placed in a grind stone
+  cancel-grind-stone: true
+  # The item can't be
+  # placed in an item frame
+  cancel-item-frame: true
+  # The item can't be
+  # placed in a smithing table
+  cancel-smithing-table: true
+  # The item can't be
+  # placed in a brewing stand
+  cancel-brewing: true
+  # The item can't be
+  # placed in a beacon
+  cancel-beacon: true
+  # The item can't be
+  # placed in a cartography table
+  cancel-cartography: true
+  # The item can't be
+  # placed in a composter
+  cancel-composter: true
+  # The item can't be
+  # placed in a dispenser
+  cancel-dispenser: true
+  # The item can't be
+  # placed in a dropper
+  cancel-dropper: true
+  # The item can't be
+  # placed in a hopper
+  cancel-hopper: true
+  # The item can't be
+  # placed in a lectern
+  cancel-lectern: true
+  # The item can't be
+  # placed in a loom
+  cancel-loom: true
+  # The item can't be
+  # placed in a decorated pot
+  cancel-decorated-pot: true
+  # The item can't be
+  # placed in a crafter
+  cancel-crafter: true
+  # The item can't be
+  # placed in a bundle
+  cancel-place-in-bundle: true
+  # The item can't be
+  # placed in a merchant
+  cancel-merchant: true
+  # The item can't be
+  # placed in a horse
+  cancel-horse: true
+  # The item can't be
+  # burned
+  cancel-item-burn: true
+  # The item can't be
+  # deleted by cactus
+  cancel-item-delete-by-cactus: true
+  # The item can't be
+  # deleted by lightning
+  cancel-item-delete-by-lightning: true
+  # The item can't be
+  # moved of the inventory
+  locked-in-inventory: false
+  # The item can't be
+  # used on a spawner
+  cancel-spawner: true
+# The variables
+# Variables are used to store data like kills / deaths ...
+variables: {}
+# The activators / triggers
+activators:
+  activator0:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_RECEIVE_HIT_BY_PLAYER
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - 39
+    playerCommands:
+    - 'RANDOM RUN: 1'
+    - 'LOOP START: 20'
+    - effect give %player% regeneration 3 1 true
+    - LOOP END
+    - NOTHING*80
+    - RANDOM END
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Specify a list of damageCauses that
+    # can be affected
+    # empty = all causes
+    detailedDamageCauses: []
+    targetCommands: []
+    #
+    targetConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator1:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_RECEIVE_HIT_BY_ENTITY
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - 39
+    playerCommands:
+    - 'RANDOM RUN: 1'
+    - 'LOOP START: 20'
+    - effect give %player% regeneration 3 1 true
+    - LOOP END
+    - NOTHING*80
+    - RANDOM END
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Specify a list of damageCauses that
+    # can be affected
+    # empty = all causes
+    detailedDamageCauses: []
+    detailedEntities: []
+    entityCommands: []
+    #
+    entityConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator2:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_RECEIVE_HIT_GLOBAL
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - 39
+    playerCommands:
+    - 'RANDOM RUN: 1'
+    - 'LOOP START: 20'
+    - effect give %player% regeneration 3 1 true
+    - LOOP END
+    - NOTHING*80
+    - RANDOM END
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Specify a list of damageCauses that
+    # can be affected
+    # empty = all causes
+    detailedDamageCauses: []
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator3:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 90
+      # The cooldown message
+      cooldownMsg: '&cクールダウン中です！  残り%time_M%分%time_S%秒'
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots:
+    - 39
+    playerCommands:
+    - DAMAGE_BOOST 20 200
+    - DAMAGE_RESISTANCE 30 200
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator4:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_DEATH
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    # The slots where the
+    # activator will work
+    detailedSlots: []
+    playerCommands:
+    - broadcast &6&l%player%が死亡し&e王冠&6&lをドロップしました！
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Specify a list of damageCauses that
+    # can be affected
+    # empty = all causes
+    detailedDamageCauses: []
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator5:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_DROP_THE_EI
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    playerCommands:
+    - broadcast &6&l%player%が&e王冠&6&lをドロップしました！
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    detailedEntities: []
+    entityCommands: []
+    #
+    entityConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+  activator6:
+    # The name or display name
+    name: '&eActivator'
+    option: PLAYER_PICKUP_THE_EI
+    # Usage modification
+    usageModification: 0
+    # Cancel the vanilla event
+    cancelEvent: false
+    # If another plugin cancels the event that
+    # triggers the activator and you enabled this feature
+    # the activator will not be activated
+    noActivatorRunIfTheEventIsCancelled: false
+    # Automatically update the item
+    autoUpdateItem: false
+    # The cooldown
+    cooldownFeatures:
+      # The cooldown
+      cooldown: 0
+      # The placeholders conditions to pause the cooldown
+      pausePlaceholdersConditions: {}
+    # The global cooldown
+    # (For ALL players and entities)
+    globalCooldownFeatures:
+      # The cooldown
+      cooldown: 0
+    # To add cooldown
+    # to another EI
+    otherEICooldowns: {}
+    # The required items
+    requiredItems: {}
+    # The required executable items
+    requiredExecutableItems: {}
+    # The required Magics
+    # (from EcoSkills)
+    requiredMagics: {}
+    playerCommands:
+    - broadcast &6&l%player%が&e王冠&6&lを拾いました！
+    # Add player conditions to determine
+    # when the 
+    playerConditions: {}
+    #
+    worldConditions: {}
+    #
+    itemConditions: {}
+    #
+    customConditions: {}
+    # The placeholders conditions
+    placeholdersConditions: {}
+    # Part to modifiy your variables
+    variablesModification: {}
+# Display conditions in the lore
+displayConditions:
+  # Add player conditions to determine
+  # when the 
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # The placeholders conditions
+  placeholdersConditions: {}
+  # Enable or disable this feature
+  enableFeature: false
+# Food features
+foodFeatures:
+  # Is the food meat?
+  isMeat: false
+  # The nutrition of the food
+  nutrition: 1
+  # The saturation of the food
+  saturation: 1
+  # Can the player always eat this food?
+  canAlwaysEat: false
+# Consumable Features
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # The animation
+  animation: EAT
+  # Has consume particles
+  hasConsumeParticles: false
+  # The consume seconds
+  consumeSeconds: 3
+# The weapon features
+weaponFeatures:
+  # Enable this features
+  enable: false
+  # The amount of time the target's
+  # shield will not work in seconds
+  disableBlockingTime: 0
+  # The amount of durability reduced per attack
+  damagePerAttack: 5
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# The attack range of the weapon (1.21.11+)
+attackRangeFeatures:
+  # Enable this features
+  enable: false
+  minReach: 0.0
+  maxReach: 3.0
+  minCreativeReach: 0.0
+  maxCreativeReach: 6.0
+  hitboxMargin: 1.0
+  mobFactor: 2.0
+# The weapon pierces through entities (1.21.11+)
+piercingWeaponFeatures:
+  # Enable this features
+  enable: false
+  # Whether the piercing attack deals knockback
+  dealsKnockback: true
+  # Whether the attack dismounts hit entities
+  dismounts: false
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM_SPEAR_ATTACK
+  # Enable the sound played when an entity is hit
+  enableHitSound: false
+  # The hit sound
+  # Requires Paperspigot or its forks to work
+  hitSound: ITEM_SPEAR_HIT
+# Charge/lunge attack based on speed (1.21.11+)
+kineticWeaponFeatures:
+  # Enable this features
+  enable: false
+  # Cooldown in ticks between two contacts
+  contactCooldownTicks: 20
+  # Delay in ticks before the kinetic effect starts
+  delayTicks: 0
+  forwardMovement: 1.0
+  damageMultiplier: 1.0
+  # Max duration (ticks) the dismount condition stays active
+  dismountMaxDurationTicks: 20
+  dismountMinSpeed: 0.0
+  dismountMinRelativeSpeed: 0.0
+  # Max duration (ticks) the knockback condition stays active
+  knockbackMaxDurationTicks: 20
+  knockbackMinSpeed: 0.0
+  knockbackMinRelativeSpeed: 0.0
+  # Max duration (ticks) the damage condition stays active
+  damageMaxDurationTicks: 20
+  damageMinSpeed: 0.0
+  damageMinRelativeSpeed: 0.0
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM_SPEAR_LUNGE_1
+  # Enable the sound played when an entity is hit
+  enableHitSound: false
+  # The hit sound
+  # Requires Paperspigot or its forks to work
+  hitSound: ITEM_SPEAR_HIT
+# The repairable features
+repairableFeatures:
+  # Enable this features
+  enable: true
+  # The repair cost
+  repairCost: 2
+  # Items that can repair this item in an anvil
+  # (Paper 1.21.4+ only)
+  repairableItems:
+  - GOLD_INGOT
+# The rarity of the item
+itemRarity:
+  # Enable or disable the rarity feature
+  enableRarity: false
+  # The rarity of the item
+  rarity: COMMON
+# The equippable features
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # The slot
+  slot: CHEST
+  # Enable the sound
+  enableSound: false
+  # The sound
+  sound: ITEM_ARMOR_EQUIP_DIAMOND
+  # The item will take damage when the player is hurt
+  damageableOnHurt: false
+  # The item can be dispensed
+  dispensable: true
+  # The item can be swapped
+  swappable: true
+  # The allowed entities
+  allowedEntities:
+  - PLAYER
+  # If the item can be sheared off the
+  # entity wearing it (e.g. with shears)
+  canBeSheared: false
+  # Enable the sound played when sheared
+  enableShearingSound: false
+  # The sound played when the item is sheared
+  shearingSound: ENTITY_SHEEP_SHEAR
+  # Equip the item on the entity by
+  # right-clicking it (e.g. like a saddle)
+  equipOnInteract: false
+# The attributes
+attributes:
+  attribute0:
+    attribute: ARMOR
+    operation: ADD_NUMBER
+    amount: 8.0
+    # The slot
+    slot: HEAD
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 4f831ccf-bf49-413e-b71b-7440fffb2c3a
+  attribute1:
+    attribute: ARMOR_TOUGHNESS
+    operation: ADD_NUMBER
+    amount: 5.0
+    # The slot
+    slot: HEAD
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 13086831-d4fd-4d5f-bf5d-2bd8405d2613
+  attribute2:
+    attribute: ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.5
+    # The slot
+    slot: HEAD
+    # The name or display name
+    name: '&eDefault name'
+    uuid: cebce2ba-1092-48c9-9e01-9b914084a227
+  attribute3:
+    attribute: ATTACK_SPEED
+    operation: ADD_NUMBER
+    amount: 0.5
+    # The slot
+    slot: HEAD
+    # The name or display name
+    name: '&eDefault name'
+    uuid: 0a0f3fe8-a324-4971-bc2c-86a86514ed68
+armorTrim:
+  # Enable armor trim
+  enableArmorTrim: false
+  trimMaterial: DIAMOND
+  pattern: 'NULL'

@@ -1,0 +1,21 @@
+# Team Colors Configuration
+# Muted two-tone team accents used when a team does not have an explicit colour.
+# Format: MiniMessage gradient tags.
+
+gradients:
+  - "<gradient:#6E8FA8:#9CB5C8>" # Steel Blue
+  - "<gradient:#7189A6:#A0B1C8>" # Slate Blue
+  - "<gradient:#6F9B91:#9BBDB5>" # Sage Teal
+  - "<gradient:#789C82:#A6C0AD>" # Moss
+  - "<gradient:#9B7F8E:#C1A7B3>" # Dusty Rose
+  - "<gradient:#8C7EA2:#B5A9C6>" # Heather
+  - "<gradient:#A2846E:#C4AA94>" # Clay
+  - "<gradient:#A08C63:#C4B181>" # Sand Gold
+  - "<gradient:#7A9297:#A7B8BB>" # Mineral
+  - "<gradient:#6F8C9D:#A0B4BF>" # Rain
+  - "<gradient:#7E879B:#AAB0BF>" # Graphite Blue
+  - "<gradient:#8E7B74:#B5A09A>" # Cocoa Rose
+  - "<gradient:#758F7C:#A1B4A5>" # Pine
+  - "<gradient:#897991:#B0A0B5>" # Mauve
+  - "<gradient:#8B9072:#B1B797>" # Olive Mist
+  - "<gradient:#707D8A:#9EA9B3>" # Midnight Slate

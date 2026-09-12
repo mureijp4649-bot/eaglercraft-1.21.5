@@ -1,0 +1,39 @@
+Messages_prefix: "&#84f542PasiVanish <DARK_GRAY>»<RESET> "
+
+vanish_on: "&aVanish włączony dla {player}."
+vanish_off: "&cVanish wyłączony dla {player}."
+autovanish_on: "&aAutomatycznie włączono Vanish przy wejściu na serwer."
+
+noperm: "&cNie posiadasz permisji do tej komendy!!!"
+reloadsucces: "&aPlugin został przeładowany."
+reloadnoperm: "&cNie posiadasz uprawnień do przeładowania pluginu."
+
+ConsoleMustProvideName: "To polecenie w konsoli wymaga podania gracza."
+
+MustProvideName: "&cMusisz podać nazwę gracza do sprawdzenia."
+IncorrectName: "&cNie znaleziono gracza o nazwie {player}"
+CheckMaxPlayers: "&cMożesz sprawdzić stan vanish maksymalnie jednego gracza!"
+YesVanish: "&ajest w trybie vanish."
+NoVanish: "&cnie jest w trybie vanish."
+
+listnpperm: "&aNie posiadasz uprawnień do wyświetlania listy graczy w vanish."
+nonplayerlist: "&cBrak graczy w trybie vanish."
+abovelist: "&3Gracze w trybie vanish: "
+
+help_above: "&aUżyj jednej z poniższych komend: "
+help_check: "&fSprawdza coś."
+help_info: "&fWyświetla informacje o pluginie."
+help_vanish: "&fWłącz/wyłącz vanish."
+help_reload: "&fPrzeładuj konfigurację."
+help_list: "&fWyświetl listę graczy w vanish."
+help_broadcast: "&fWyślij fake wiadomość dołączenia/wyjścia."
+
+noBreak: "&cNie możesz niszczyć bloków na vanishu"
+noPlace: "&cNie możesz stawiać bloków na vanishu"
+noInteract: "&cNie możesz wchodzić w interakcję z blokami na vanishu"
+noMove: "&cNie możesz się poruszać będąc na vanishu"
+noDrop: "&cNie możesz upuszcać przedmiotów będąc na vanishu."
+noChangeGamemode: "&cNie możesz zmieniać trybu gry na vanishu"
+noBedLeave: "&cNie możesz wstawać z łóżka na vanishu"
+noBedEnter: "&cNie możesz kłaść się do łóżka na vanishu"
+noSprint: "&cNie możesz biegać na vanishu"

@@ -1,0 +1,22 @@
+# ==========================================
+# Orbital Strike Cannon Configuration
+# ==========================================
+# This is the main configuration file for the Orbital Strike plugin.
+# For individual cannon customization, edit "cannons.yml" instead.
+
+settings:
+  # Notify admins on join when a new version is available
+  update-notify: true
+
+  # Automatically load the target chunk before firing to ensure strike success
+  # Recommended: true (prevents strikes from failing in unloaded chunks)
+  force-load-target: true
+
+  # Worlds where cannons are disabled
+  disabled-worlds: []
+
+  # Log strike events to console
+  log-strikes: false
+
+  # Maximum number of TNT entities per strike (safety limit; -1 for unlimited)
+  max-tnt-per-strike: -1
