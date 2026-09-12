@@ -1,0 +1,72 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:player": 1
+    },
+    "minecraft:killed": {
+      "minecraft:villager": 8
+    },
+    "minecraft:used": {
+      "minecraft:spruce_slab": 2,
+      "minecraft:cooked_beef": 2,
+      "minecraft:netherite_helmet": 1,
+      "minecraft:lectern": 14,
+      "minecraft:diamond_axe": 59,
+      "minecraft:netherite_boots": 1,
+      "minecraft:netherite_leggings": 1,
+      "minecraft:spruce_sign": 10,
+      "minecraft:netherite_chestplate": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_planks": 1,
+      "minecraft:diamond_axe": 1,
+      "minecraft:enchanted_book": 2,
+      "minecraft:cooked_beef": 9,
+      "minecraft:netherite_leggings": 1,
+      "minecraft:netherite_chestplate": 1,
+      "minecraft:emerald": 2,
+      "minecraft:netherite_helmet": 1,
+      "minecraft:netherite_boots": 1,
+      "minecraft:lectern": 11,
+      "minecraft:spruce_slab": 10
+    },
+    "minecraft:mined": {
+      "minecraft:spruce_slab": 10,
+      "minecraft:lectern": 11
+    },
+    "minecraft:dropped": {
+      "minecraft:netherite_pickaxe": 1,
+      "minecraft:lectern": 9,
+      "minecraft:enchanted_book": 16,
+      "minecraft:spruce_sign": 3,
+      "minecraft:book": 18,
+      "minecraft:diamond_axe": 1,
+      "minecraft:emerald": 52,
+      "minecraft:spruce_slab": 8,
+      "minecraft:bookshelf": 3
+    },
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 87,
+      "minecraft:time_since_rest": 39819,
+      "minecraft:walk_one_cm": 21524,
+      "minecraft:leave_game": 5,
+      "minecraft:mob_kills": 8,
+      "minecraft:damage_taken": 373,
+      "minecraft:play_time": 43457,
+      "minecraft:damage_dealt": 2135,
+      "minecraft:jump": 168,
+      "minecraft:time_since_death": 39682,
+      "minecraft:drop": 27,
+      "minecraft:sprint_one_cm": 12337,
+      "minecraft:fall_one_cm": 1622,
+      "minecraft:total_world_time": 43457,
+      "minecraft:fly_one_cm": 3297,
+      "minecraft:crouch_one_cm": 2,
+      "minecraft:sneak_time": 598,
+      "minecraft:climb_one_cm": 4236,
+      "minecraft:deaths": 1,
+      "minecraft:player_kills": 1
+    }
+  },
+  "DataVersion": 4671
+}

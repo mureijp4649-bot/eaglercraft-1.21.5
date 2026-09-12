@@ -1,0 +1,54 @@
+recipes:
+  stab_recipe:
+    enabled: true
+    cannon: "Stab_Example"
+    require-permission: true
+    permission: "orbitalstrike.craft.stab_recipe"
+    shape:
+      - "  W"
+      - " SW"
+      - "S T"
+    ingredients:
+      W: STRING
+      S: STICK
+      T: TNT
+
+  nuke_recipe:
+    enabled: true
+    cannon: "Nuke_Example"
+    require-permission: true
+    permission: "orbitalstrike.craft.nuke_recipe"
+    shape:
+      - "TTT"
+      - "TBT"
+      - "TTT"
+    ingredients:
+      T: TNT
+      B: BLAZE_ROD
+
+  recursion_recipe:
+    enabled: true
+    cannon: "Recursion_Example"
+    require-permission: true
+    permission: "orbitalstrike.craft.recursion_recipe"
+    shape:
+      - "STS"
+      - "TFT"
+      - "STS"
+    ingredients:
+      T: TNT
+      S: SAND
+      F: FISHING_ROD
+
+  emp_recipe:
+    enabled: true
+    cannon: "EMP_Example"
+    require-permission: true
+    permission: "orbitalstrike.craft.emp_recipe"
+    shape:
+      - "RRR"
+      - "RPR"
+      - "RRR"
+    ingredients:
+      R: REDSTONE_BLOCK
+      P: PRISMARINE_CRYSTALS

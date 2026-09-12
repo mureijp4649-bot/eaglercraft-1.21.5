@@ -1,0 +1,45 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:spider": 1
+    },
+    "minecraft:used": {
+      "minecraft:pink_petals": 3
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 7,
+      "minecraft:tall_grass": 6,
+      "minecraft:cherry_log": 2,
+      "minecraft:bush": 1,
+      "minecraft:pink_petals": 19
+    },
+    "minecraft:picked_up": {
+      "minecraft:ender_pearl": 1,
+      "minecraft:wheat_seeds": 2,
+      "minecraft:cherry_log": 2,
+      "minecraft:pink_petals": 29
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 57,
+      "minecraft:walk_one_cm": 12151,
+      "minecraft:leave_game": 5,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 123,
+      "minecraft:damage_taken": 2780,
+      "minecraft:damage_dealt": 273,
+      "minecraft:play_time": 11217,
+      "minecraft:jump": 353,
+      "minecraft:time_since_death": 0,
+      "minecraft:sprint_one_cm": 32000,
+      "minecraft:fall_one_cm": 56482,
+      "minecraft:swim_one_cm": 3995,
+      "minecraft:total_world_time": 11217,
+      "minecraft:fly_one_cm": 75307,
+      "minecraft:walk_on_water_one_cm": 328,
+      "minecraft:crouch_one_cm": 2433,
+      "minecraft:sneak_time": 1756,
+      "minecraft:deaths": 10
+    }
+  },
+  "DataVersion": 4671
+}

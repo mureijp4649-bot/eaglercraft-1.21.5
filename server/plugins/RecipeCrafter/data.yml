@@ -1,0 +1,145 @@
+global:
+  frost_sword: 1
+  king_crown: 1
+  inferno_blade: 1
+  explosion_bow: 1
+  wind_mace: 1
+  soumetu: 1
+  lifecharm: 1
+  battle_axe: 1
+  poseidon_spear: 1
+  shadow_sword: 1
+  reaper_scythe: 1
+  dragon_blade: 1
+  experiencebottle: 1
+  xpsword: 1
+  ancientpickaxe: 1
+  thunderaxe: 1
+global_crafters:
+  frost_sword: aika
+  king_crown: normal_
+  inferno_blade: aika
+  wind_mace: aika
+  explosion_bow: aika
+  lifecharm: aika
+  soumetu: fly
+  poseidon_spear: fly
+  battle_axe: yuito
+  shadow_sword: aika
+  reaper_scythe: aika
+  dragon_blade: aika
+  experiencebottle: normal_
+  xpsword: normal_
+  ancientpickaxe: fly
+  thunderaxe: aika
+stats:
+  frost_sword:
+    total: 1
+    last_at: 1788687882801
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  golden_apple:
+    total: 5
+    last_at: 1788947652899
+    last_player: normal_
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+    - 44480424-c5e8-3fd1-9ca5-cbf52275920b
+  king_crown:
+    total: 1
+    last_at: 1788871889360
+    last_player: normal_
+    unique_crafters:
+    - 44480424-c5e8-3fd1-9ca5-cbf52275920b
+  inferno_blade:
+    total: 1
+    last_at: 1788671327080
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  explosion_bow:
+    total: 1
+    last_at: 1788770353994
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  wind_mace:
+    total: 1
+    last_at: 1788693064544
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  soumetu:
+    total: 1
+    last_at: 1788869679314
+    last_player: fly
+    unique_crafters:
+    - eec536fd-3878-3d29-b26a-8c8e9cbc81d0
+  lifecharm:
+    total: 1
+    last_at: 1788693797942
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  totem_of_undying:
+    total: 35
+    last_at: 1788947758624
+    last_player: normal_
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+    - 44480424-c5e8-3fd1-9ca5-cbf52275920b
+  battle_axe:
+    total: 1
+    last_at: 1789187305346
+    last_player: yuito
+    unique_crafters:
+    - 522173ca-c7e4-3621-b48f-0116f660680b
+  poseidon_spear:
+    total: 1
+    last_at: 1788785889074
+    last_player: fly
+    unique_crafters:
+    - eec536fd-3878-3d29-b26a-8c8e9cbc81d0
+  shadow_sword:
+    total: 1
+    last_at: 1788685461441
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  reaper_scythe:
+    total: 1
+    last_at: 1788670024556
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  dragon_blade:
+    total: 1
+    last_at: 1788685277128
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273
+  experiencebottle:
+    total: 10
+    last_at: 1788873206231
+    last_player: normal_
+    unique_crafters:
+    - 44480424-c5e8-3fd1-9ca5-cbf52275920b
+  xpsword:
+    total: 1
+    last_at: 1788873391510
+    last_player: normal_
+    unique_crafters:
+    - 44480424-c5e8-3fd1-9ca5-cbf52275920b
+  ancientpickaxe:
+    total: 1
+    last_at: 1788956678544
+    last_player: fly
+    unique_crafters:
+    - eec536fd-3878-3d29-b26a-8c8e9cbc81d0
+  thunderaxe:
+    total: 2
+    last_at: 1788781294683
+    last_player: aika
+    unique_crafters:
+    - 021cc1e0-00e8-362f-82c5-891c6c08c273

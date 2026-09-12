@@ -1,0 +1,311 @@
+import:
+    com.ssomar.score.api.executableitems.ExecutableItemsAPI
+
+options:
+    itemlist-prefix: &8[&bItemList&8] &r
+    itemlist-missing: &c存在しません
+    itemlist-no-items: &7まだリストに登録された神器はありません。
+
+# ================================================================
+# /itemlist
+#
+# 「現在の所有者」はEI内部の getOwnerPlayer() ではなく、
+# 実際にプレイヤーのインベントリに入っている人を記録します。
+#
+# 一度台帳に登録されたEIは、所有者がログアウトしても名前を保持します。
+# ドロップ・チェスト移動・消滅などでプレイヤーのインベントリから
+# 離れた場合は「存在しません」にします。
+#
+# ※同じEI IDを同じ元所有者が複数個持つ場合は、EI側に個体IDが
+#   公開されていないため、同じ管理単位になります。
+# ================================================================
+
+command /itemlist:
+    permission: itemlist.use
+    permission message: &cこのコマンドを使用する権限がありません。
+    executable by: players
+    trigger:
+        # 現在オンラインのプレイヤーからEIを発見
+        loop all players:
+            set {_holder} to loop-player
+
+            loop all items in {_holder}'s inventory:
+                set {_stack} to loop-item
+                set {_ei} to ExecutableItemsAPI.getExecutableItemObject({_stack})
+
+                if {_ei} is set:
+                    if {_ei}.isValid():
+                        set {_item-id} to "%{_ei}.getConfig().getId()%"
+
+                        # EI内部の元所有者は台帳のキー作成用
+                        set {_saved-owner} to {_ei}.getOwnerPlayer()
+
+                        if {_saved-owner}.isPresent():
+                            set {_original-owner} to {_saved-owner}.get()
+                            set {_original-uuid} to "%{_original-owner}.getUniqueId()%"
+                        else:
+                            # 所有者情報を持たないEIも登録対象にする
+                            set {_original-uuid} to "UNOWNED"
+
+                        set {_entry} to "%{_original-uuid}%|%{_item-id}%"
+
+                        if {itemlist::entry::%{_entry}%} is not set:
+                            set {itemlist::entry::%{_entry}%} to true
+                            set {itemlist::name::%{_entry}%} to name of {_stack}
+
+                        # ★現在実際に持っているプレイヤー
+                        set {itemlist::current-uuid::%{_entry}%} to "%{_holder}.getUniqueId()%"
+                        set {itemlist::current-name::%{_entry}%} to name of {_holder}
+                        set {itemlist::exists::%{_entry}%} to true
+
+        # 表示
+        send ""
+        send "&8&m----------------------------------------"
+        send "&6&l神器所有者リスト"
+        send "&7現在の所持状態を表示しています。"
+        send ""
+
+        set {_count} to 0
+
+        loop {itemlist::entry::*}:
+            set {_entry} to loop-index
+            set {_item-name} to {itemlist::name::%{_entry}%}
+
+            if {_item-name} is not set:
+                set {_parts::*} to split {_entry} at "|"
+                if size of {_parts::*} is 2:
+                    set {_item-name} to {_parts::2}
+                else:
+                    set {_item-name} to "ExecutableItem"
+
+            set {_exists} to {itemlist::exists::%{_entry}%}
+
+            if {_exists} is true:
+                set {_current-name} to {itemlist::current-name::%{_entry}%}
+
+                if {_current-name} is set:
+                    set {_owner-text} to "&f%{_current-name}%"
+                else:
+                    set {_owner-text} to "{@itemlist-missing}"
+            else:
+                set {_owner-text} to "{@itemlist-missing}"
+
+            # 希望していたスクショと同じ形式
+            send "&8• &f%{_item-name}% &7x1 &8(&7現在の所有者: %{_owner-text}%&8)"
+            add 1 to {_count}
+
+        if {_count} is 0:
+            send "{@itemlist-prefix}{@itemlist-no-items}"
+
+        send ""
+        send "&8&m----------------------------------------"
+
+
+# ================================================================
+# ドロップ
+# ================================================================
+on drop:
+    set {_stack} to event-item
+    set {_ei} to ExecutableItemsAPI.getExecutableItemObject({_stack})
+
+    if {_ei} is set:
+        if {_ei}.isValid():
+            set {_item-id} to "%{_ei}.getConfig().getId()%"
+            set {_saved-owner} to {_ei}.getOwnerPlayer()
+
+            if {_saved-owner}.isPresent():
+                set {_original-owner} to {_saved-owner}.get()
+                set {_original-uuid} to "%{_original-owner}.getUniqueId()%"
+            else:
+                set {_original-uuid} to "UNOWNED"
+
+            set {_entry} to "%{_original-uuid}%|%{_item-id}%"
+
+            if {itemlist::entry::%{_entry}%} is set:
+                set {itemlist::exists::%{_entry}%} to false
+
+
+# ================================================================
+# 地面から拾った
+# ================================================================
+on pickup:
+    set {_stack} to event-item
+    set {_ei} to ExecutableItemsAPI.getExecutableItemObject({_stack})
+
+    if {_ei} is set:
+        if {_ei}.isValid():
+            set {_item-id} to "%{_ei}.getConfig().getId()%"
+            set {_saved-owner} to {_ei}.getOwnerPlayer()
+
+            if {_saved-owner}.isPresent():
+                set {_original-owner} to {_saved-owner}.get()
+                set {_original-uuid} to "%{_original-owner}.getUniqueId()%"
+            else:
+                set {_original-uuid} to "UNOWNED"
+
+            set {_entry} to "%{_original-uuid}%|%{_item-id}%"
+
+            if {itemlist::entry::%{_entry}%} is set:
+                set {itemlist::current-uuid::%{_entry}%} to "%uuid of player%"
+                set {itemlist::current-name::%{_entry}%} to name of player
+                set {itemlist::exists::%{_entry}%} to true
+
+
+# ================================================================
+# インベントリクリック
+#
+# 1tick待って実際に移動した後のインベントリを確認します。
+# ================================================================
+on inventory click:
+    set {_p} to player
+    wait 1 tick
+
+    # プレイヤーインベントリにあるEIを現在の所有者として登録
+    loop all items in {_p}'s inventory:
+        set {_stack} to loop-item
+        set {_ei} to ExecutableItemsAPI.getExecutableItemObject({_stack})
+
+        if {_ei} is set:
+            if {_ei}.isValid():
+                set {_item-id} to "%{_ei}.getConfig().getId()%"
+                set {_saved-owner} to {_ei}.getOwnerPlayer()
+
+                if {_saved-owner}.isPresent():
+                    set {_original-owner} to {_saved-owner}.get()
+                    set {_original-uuid} to "%{_original-owner}.getUniqueId()%"
+                else:
+                    set {_original-uuid} to "UNOWNED"
+
+                set {_entry} to "%{_original-uuid}%|%{_item-id}%"
+
+                if {itemlist::entry::%{_entry}%} is not set:
+                    set {itemlist::entry::%{_entry}%} to true
+                    set {itemlist::name::%{_entry}%} to name of {_stack}
+
+                set {itemlist::current-uuid::%{_entry}%} to "%uuid of {_p}%"
+                set {itemlist::current-name::%{_entry}%} to name of {_p}
+                set {itemlist::exists::%{_entry}%} to true
+
+    # 元々このプレイヤーが持っていたEIが消えた場合は存在しない扱い
+    loop {itemlist::entry::*}:
+        set {_entry} to loop-index
+        set {_current-uuid} to {itemlist::current-uuid::%{_entry}%}
+
+        if {_current-uuid} is set:
+            if "%uuid of {_p}%" is "%{_current-uuid}%":
+                set {_still-has} to false
+
+                loop all items in {_p}'s inventory:
+                    set {_stack} to loop-item
+                    set {_ei} to ExecutableItemsAPI.getExecutableItemObject({_stack})
+
+                    if {_ei} is set:
+                        if {_ei}.isValid():
+                            set {_item-id} to "%{_ei}.getConfig().getId()%"
+                            set {_saved-owner} to {_ei}.getOwnerPlayer()
+
+                            if {_saved-owner}.isPresent():
+                                set {_original-owner} to {_saved-owner}.get()
+                                set {_original-uuid} to "%{_original-owner}.getUniqueId()%"
+                            else:
+                                set {_original-uuid} to "UNOWNED"
+
+                            set {_check-entry} to "%{_original-uuid}%|%{_item-id}%"
+
+                            if "%{_check-entry}%" is "%{_entry}%":
+                                set {_still-has} to true
+                                stop loop
+
+                if {_still-has} is false:
+                    set {itemlist::exists::%{_entry}%} to false
+
+
+# ================================================================
+# インベントリドラッグ
+# ================================================================
+on inventory drag:
+    set {_p} to player
+    wait 1 tick
+
+    loop all items in {_p}'s inventory:
+        set {_stack} to loop-item
+        set {_ei} to ExecutableItemsAPI.getExecutableItemObject({_stack})
+
+        if {_ei} is set:
+            if {_ei}.isValid():
+                set {_item-id} to "%{_ei}.getConfig().getId()%"
+                set {_saved-owner} to {_ei}.getOwnerPlayer()
+
+                if {_saved-owner}.isPresent():
+                    set {_original-owner} to {_saved-owner}.get()
+                    set {_original-uuid} to "%{_original-owner}.getUniqueId()%"
+                else:
+                    set {_original-uuid} to "UNOWNED"
+
+                set {_entry} to "%{_original-uuid}%|%{_item-id}%"
+
+                if {itemlist::entry::%{_entry}%} is set:
+                    set {itemlist::current-uuid::%{_entry}%} to "%uuid of {_p}%"
+                    set {itemlist::current-name::%{_entry}%} to name of {_p}
+                    set {itemlist::exists::%{_entry}%} to true
+
+
+# ================================================================
+# 定期確認
+#
+# イベントを取りこぼしても、オンラインの現在所有者が
+# EIをまだ持っているか20秒ごとに確認します。
+# ================================================================
+every 20 seconds:
+    loop {itemlist::entry::*}:
+        set {_entry} to loop-index
+        set {_current-uuid} to {itemlist::current-uuid::%{_entry}%}
+
+        if {_current-uuid} is set:
+            loop all players:
+                if "%uuid of loop-player%" is "%{_current-uuid}%":
+                    set {_p} to loop-player
+                    set {_still-has} to false
+
+                    loop all items in {_p}'s inventory:
+                        set {_stack} to loop-item
+                        set {_ei} to ExecutableItemsAPI.getExecutableItemObject({_stack})
+
+                        if {_ei} is set:
+                            if {_ei}.isValid():
+                                set {_item-id} to "%{_ei}.getConfig().getId()%"
+                                set {_saved-owner} to {_ei}.getOwnerPlayer()
+
+                                if {_saved-owner}.isPresent():
+                                    set {_original-owner} to {_saved-owner}.get()
+                                    set {_original-uuid} to "%{_original-owner}.getUniqueId()%"
+                                else:
+                                    set {_original-uuid} to "UNOWNED"
+
+                                set {_check-entry} to "%{_original-uuid}%|%{_item-id}%"
+
+                                if "%{_check-entry}%" is "%{_entry}%":
+                                    set {_still-has} to true
+                                    stop loop
+
+                    if {_still-has} is false:
+                        set {itemlist::exists::%{_entry}%} to false
+
+                    stop loop
+
+
+# ================================================================
+# 台帳を全消去
+# ================================================================
+command /itemlistreset:
+    permission: itemlist.admin
+    permission message: &cこのコマンドを使用する権限がありません。
+    executable by: players
+    trigger:
+        delete {itemlist::entry::*}
+        delete {itemlist::name::*}
+        delete {itemlist::current-uuid::*}
+        delete {itemlist::current-name::*}
+        delete {itemlist::exists::*}
+        send "&aExecutableItemsの所有者データをすべて消去しました。"
+        send "&7次回 /itemlist を実行した時点から、新しく所有者データを登録します。"

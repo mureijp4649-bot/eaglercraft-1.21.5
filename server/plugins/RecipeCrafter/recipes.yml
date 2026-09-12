@@ -1,0 +1,1758 @@
+dragon_blade:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_sword
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:attribute_modifiers: '[{amount:9.5d,id:"minecraft:4252d56c-c136-419d-8d75-661592688015",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-1.7d,id:"minecraft:1473fd66-d8d1-4348-a93e-985a7c25c27b",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:lore: '[{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"【ドラゴンブレード】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、10%の確率で自分に攻撃力上昇IIIを5秒付与",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"盾を構えているプレイヤーに対してダメージを与えることが可能",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:enchantment_glint_override: 0b
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:enchantments: '{"minecraft:breach":1}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"ドラゴンブレード",underlined:0b}],text:""}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"DragonBlade","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:repairable: '{items:"minecraft:netherite_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_ingot
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:dragon_head
+      count: 1
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_ingot
+      count: 1
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:dragon_breath
+      count: 32
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_sword
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:dragon_breath
+      count: 32
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_ingot
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:dragon_egg
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_ingot
+      count: 1
+      schema_version: 1
+  key: dragon_blade
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: 神器
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+explosion_bow:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:bow
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:lore: '[{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"【エクスプローションボウ】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"矢が相手にヒットした時、50%の確率で爆発する",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"エクスプロージョンボウ",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:infinity":10,"minecraft:piercing":9,"minecraft:power":8}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"ExplosionBow","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gunpowder
+      count: 8
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:tnt
+      count: 8
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:fire_charge
+      count: 8
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:tnt
+      count: 8
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:bow
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:tnt
+      count: 8
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:fire_charge
+      count: 8
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:tnt
+      count: 8
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gunpowder
+      count: 8
+      schema_version: 1
+  key: explosion_bow
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+lifecharm:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:red_dye
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:10.0d,id:"minecraft:8ea6b9fa-9df4-4c39-a901-f1481162d740",operation:"add_value",slot:"offhand",type:"minecraft:max_health"}]'
+      minecraft:unbreakable: '{}'
+      minecraft:lore: '[{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"【ライフスティールチャーム】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"オフハンドに持つことでハートを5個追加する",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、30%の確率でハート3個を回復する",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:enchantment_glint_override: 1b
+      minecraft:custom_name: '{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"ライフスティールチャーム",underlined:0b}],text:""}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"LifeCharm","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:enchanted_golden_apple
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:golden_apple
+      count: 16
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:enchanted_golden_apple
+      count: 1
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:golden_apple
+      count: 16
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:golden_apple
+      count: 16
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:enchanted_golden_apple
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:golden_apple
+      count: 16
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:enchanted_golden_apple
+      count: 1
+      schema_version: 1
+  key: lifecharm
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+inferno_blade:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_sword
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:attribute_modifiers: '[{amount:15.5d,id:"minecraft:b00ac6c7-68aa-43f6-a8f9-15699847d1ab",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-3.1d,id:"minecraft:5ad2160a-a171-4dc1-bbbf-dabfa6cd4870",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:lore: '[{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"【インフェルノブレード】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、30%の確率で相手を燃やす",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:enchantment_glint_override: 1b
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:enchantments: '{"minecraft:sweeping_edge":10}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"インフェルノブレード",underlined:0b}],text:""}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"InfernalBlade","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+      minecraft:repairable: '{items:"minecraft:gold_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:magma_cream
+      count: 8
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:blaze_rod
+      count: 16
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:magma_cream
+      count: 8
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:magma_block
+      count: 32
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:golden_sword
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:magma_block
+      count: 32
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:magma_cream
+      count: 8
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:blaze_rod
+      count: 16
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:magma_cream
+      count: 8
+      schema_version: 1
+  key: inferno_blade
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+reaper_scythe:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_hoe
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:attribute_modifiers: '[{amount:9.0d,id:"minecraft:fc26236b-6dc6-4340-937d-c216d1eb86c9",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.3d,id:"minecraft:0da4024c-d675-47f1-b633-80814b871ab4",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:lore: '[{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"【リーパーサイス】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"スニーク中攻撃時、相手のハートを-3ハートし、自分に+3ハート",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、25%の確率で防具貫通の追加ダメージが入る",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"リーパーサイス",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:bane_of_arthropods":8,"minecraft:smite":9}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"ReaperScythe","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:repairable: '{items:"minecraft:netherite_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nether_star
+      count: 1
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 1
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:wither_skeleton_skull
+      count: 1
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_hoe
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:wither_skeleton_skull
+      count: 1
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ender_eye
+      count: 16
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 1
+      schema_version: 1
+  key: reaper_scythe
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+wind_mace:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:mace
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:attribute_modifiers: '[{amount:10.0d,id:"minecraft:67297bf1-5263-4889-a76b-1cf143963691",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.5d,id:"minecraft:b66d3543-5ca6-4d0e-9aab-a6eeb73da69c",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:lore: '[{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"【ウィンドメイス】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"スニーク中攻撃時、自分の足元にウィンドチャージが召喚される",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"white",italic:0b,obfuscated:0b,strikethrough:0b,text:"ウィンドメイス",underlined:0b}],text:""}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:enchantments: '{"minecraft:breach":3,"minecraft:density":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"WindMace","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:feather
+      count: 8
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:breeze_rod
+      count: 8
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:feather
+      count: 8
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:breeze_rod
+      count: 8
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:mace
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:breeze_rod
+      count: 8
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:feather
+      count: 8
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:breeze_rod
+      count: 8
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:feather
+      count: 8
+      schema_version: 1
+  key: wind_mace
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+shadow_sword:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_sword
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:attribute_modifiers: '[{amount:7.5d,id:"minecraft:1c5bf36f-0118-48b4-839e-5db820db94f2",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.1d,id:"minecraft:70aa844c-57a2-4521-a294-02959aed66f2",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:lore: '[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"【シャドウソード】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、25%の確率で盲目Iを10秒付与",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"35%の確率で衰弱IIIを5秒付与",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:enchantment_glint_override: 1b
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"シャドウソード",underlined:0b}],text:""}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"ShadownSword","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:repairable: '{items:"minecraft:netherite_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:sculk_shrieker
+      count: 4
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:wither_rose
+      count: 8
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:sculk_shrieker
+      count: 4
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:wither_rose
+      count: 8
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_sword
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:wither_rose
+      count: 8
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:sculk_shrieker
+      count: 4
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:wither_rose
+      count: 8
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:sculk_shrieker
+      count: 4
+      schema_version: 1
+  key: shadow_sword
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+poseidon_spear:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:trident
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:8.0d,id:"minecraft:325104c7-ab11-427e-9740-8b1455ff6bc9",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.3d,id:"minecraft:9e52be99-f381-4b33-92b2-1db915b389e7",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:lore: '[{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"【ポセイドントライデント】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"シフト+右クリックで向いている方向へ飛ぶ",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、30%の確率で相手に雷を落とす",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"ポセイドンの槍",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:channeling":10,"minecraft:depth_strider":5,"minecraft:impaling":10,"minecraft:loyalty":10}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"PoseidonTrident","score:owneruuid":"021cc1e0-00e8-362f-82c5-891c6c08c273","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nautilus_shell
+      count: 1
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nautilus_shell
+      count: 1
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:trident
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nautilus_shell
+      count: 1
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:heart_of_the_sea
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+  key: poseidon_spear
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+frost_sword:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:diamond_sword
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:attribute_modifiers: '[{amount:8.5d,id:"minecraft:25daab76-3916-4e76-bf6d-53b0e1f3a865",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.1d,id:"minecraft:404f9efe-8df4-4a4f-bd9e-b48ebe1d193d",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:lore: '[{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"【フロストソード】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"シフト+右クリックで耐性IVを5秒付与",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、相手に鈍足IVを1秒付与",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"15%の確率で相手に弱体化IIIを5秒付与",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"フロストソード",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:sharpness":3}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"IceSword","score:owneruuid":"d6f87b40-4735-3e09-91ba-6131b5d65d58","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+      minecraft:repairable: '{items:"minecraft:diamond"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:packed_ice
+      count: 16
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:blue_ice
+      count: 4
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ice
+      count: 32
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:blue_ice
+      count: 4
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:blue_ice
+      count: 4
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ice
+      count: 32
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:blue_ice
+      count: 4
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:packed_ice
+      count: 16
+      schema_version: 1
+  key: frost_sword
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+golden_apple:
+  ==: CustomRecipe
+  broadcast: false
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:enchanted_golden_apple
+    count: 1
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: false
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:apple
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 1
+      schema_version: 1
+  key: golden_apple
+  xpLevelCost: 0
+  globalLimit: -1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+totem_of_undying:
+  ==: CustomRecipe
+  broadcast: false
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:totem_of_undying
+    count: 1
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: false
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ender_eye
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_ingot
+      count: 1
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ender_eye
+      count: 1
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_ingot
+      count: 1
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_ingot
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_ingot
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_ingot
+      count: 1
+      schema_version: 1
+  key: totem_of_undying
+  xpLevelCost: 0
+  globalLimit: -1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+thunderaxe:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_axe
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"【サンダーアックス】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、相手が盾を構えている場合相手を3秒スタンさせる",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"また、攻撃時確率で相手に雷を落とす",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"右クリックでスピードIIIを5秒付与",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:attribute_modifiers: '[{amount:9.2d,id:"minecraft:606497ab-d1d2-4d45-a818-1cd9f3f86658",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.3d,id:"minecraft:e08cb64d-d018-42f1-a3b6-e23e9a72c909",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"サンダーアックス",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:thorns":6}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"ThunderAxe","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+      minecraft:repairable: '{items:"minecraft:gold_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: false
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lightning_rod
+      count: 64
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 4
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lightning_rod
+      count: 64
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 4
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:golden_axe
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 4
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lightning_rod
+      count: 64
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 4
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lightning_rod
+      count: 64
+      schema_version: 1
+  key: thunderaxe
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+experiencebottle:
+  ==: CustomRecipe
+  broadcast: false
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: SHAPELESS
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:experience_bottle
+    count: 8
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: false
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:glass_bottle
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lapis_block
+      count: 1
+      schema_version: 1
+  key: experiencebottle
+  xpLevelCost: 0
+  globalLimit: -1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+ancientpickaxe:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_pickaxe
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"【古代のツルハシ】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"シフト+右クリックでシルクタッチ",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"右クリックで幸運VIIに変更可能",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:repair_cost: '2'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"古代のツルハシ",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:efficiency":9}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"Ancient_Pickaxe","score:usage":-1}}'
+      minecraft:repairable: '{items:"minecraft:netherite_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 2
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ancient_debris
+      count: 2
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 2
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ancient_debris
+      count: 2
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_pickaxe
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ancient_debris
+      count: 2
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 2
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:ancient_debris
+      count: 2
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 2
+      schema_version: 1
+  key: ancientpickaxe
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+king_crown:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:golden_helmet
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"【王冠】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"ダメージを受けた時、20%の確率で再生IIを3秒付与",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"右クリックで与えるダメージが20%+受けるダメージが-30%の状態が10秒間継続",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:attribute_modifiers: '[{amount:8.0d,id:"minecraft:4f831ccf-bf49-413e-b71b-7440fffb2c3a",operation:"add_value",slot:"head",type:"minecraft:armor"},{amount:5.0d,id:"minecraft:13086831-d4fd-4d5f-bf5d-2bd8405d2613",operation:"add_value",slot:"head",type:"minecraft:armor_toughness"},{amount:60.0d,id:"minecraft:6b13fa02-70bd-4517-b6a6-a2995002c222",operation:"add_value",slot:"head",type:"minecraft:knockback_resistance"}]'
+      minecraft:repair_cost: '2'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"王冠",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:protection":7}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"KingCrown","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+      minecraft:repairable: '{items:"minecraft:gold_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 5
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 5
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 5
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 5
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_helmet
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:gold_block
+      count: 5
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:obsidian
+      count: 8
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nether_star
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:obsidian
+      count: 8
+      schema_version: 1
+  key: king_crown
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+xpsword:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:wooden_sword
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"【",underlined:0b},{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"経験値ソード",underlined:0b},{bold:0b,color:"green",italic:0b,text:"】"}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"モブを倒した時に、20%の確率で確定で1レベル上がる",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:attribute_modifiers: '[{amount:7.0d,id:"minecraft:86ae221a-95ed-45fd-847c-930fb5e9dfba",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-1.9d,id:"minecraft:c8615563-a022-4626-a6dc-740e2aee3d60",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{extra:[{bold:1b,color:"green",italic:0b,obfuscated:0b,strikethrough:0b,text:"経験値ソード",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:bane_of_arthropods":9,"minecraft:sharpness":3,"minecraft:smite":9,"minecraft:sweeping_edge":10}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"XPSword","score:usage":-1}}'
+      minecraft:damage_resistant: '{types:"#minecraft:is_fire"}'
+      minecraft:repairable: '{items:["minecraft:oak_planks","minecraft:spruce_planks","minecraft:birch_planks","minecraft:jungle_planks","minecraft:acacia_planks","minecraft:dark_oak_planks","minecraft:pale_oak_planks","minecraft:crimson_planks","minecraft:warped_planks","minecraft:mangrove_planks","minecraft:bamboo_planks","minecraft:cherry_planks"]}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lapis_block
+      count: 4
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:experience_bottle
+      count: 16
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lapis_block
+      count: 4
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:experience_bottle
+      count: 16
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_sword
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:experience_bottle
+      count: 16
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lapis_block
+      count: 4
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:experience_bottle
+      count: 16
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:lapis_block
+      count: 4
+      schema_version: 1
+  key: xpsword
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+soumetu:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_sword
+    count: 1
+    components:
+      minecraft:lore: '[{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"【",underlined:0b},{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"尽滅",underlined:0b},{bold:0b,color:"dark_red",italic:0b,text:"】"}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"シフト+右クリックで攻撃力120%増加
+        (",underlined:0b},{color:"dark_aqua",italic:0b,text:"魂"},{color:"gray",italic:0b,text:"を1つ使用)"}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"シフト中攻撃時、影滅跡絶を発動する
+        (",underlined:0b},{color:"dark_aqua",italic:0b,text:"魂"},{color:"gray",italic:0b,text:"を1つ使用)"}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:attribute_modifiers: '[{amount:11.0d,id:"minecraft:7e6fe6d0-dda4-43a7-b11c-f7d9af0d0c77",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.5d,id:"minecraft:0b42b588-3560-4aff-b308-c26ae4fed3d2",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:unbreakable: '{}'
+      minecraft:custom_name: '{extra:[{bold:1b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"尽滅",underlined:0b}],text:""}'
+      minecraft:enchantments: '{"minecraft:sharpness":7}'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"Soumetu","score:usage":-1}}'
+      minecraft:repairable: '{items:"minecraft:netherite_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_block
+      count: 1
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nether_star
+      count: 1
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_block
+      count: 1
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nether_star
+      count: 1
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_sword
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:sharpness":10}'
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nether_star
+      count: 1
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_block
+      count: 1
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:nether_star
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_block
+      count: 1
+      schema_version: 1
+  key: soumetu
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1
+battle_axe:
+  ==: CustomRecipe
+  broadcast: true
+  viewPermission: ''
+  displayName: ''
+  description: ''
+  type: WORKBENCH
+  experience: 0.5
+  cookingTime: 200
+  enabled: true
+  result:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4671
+    id: minecraft:netherite_axe
+    count: 1
+    components:
+      minecraft:unbreakable: '{}'
+      minecraft:attribute_modifiers: '[{amount:13.2d,id:"minecraft:c038300e-97a9-404d-9a6d-f6345f359bb5",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-2.7d,id:"minecraft:d8ebe522-d2c0-4623-b8a8-4742a1d8b8b1",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:repair_cost: '2'
+      minecraft:lore: '[{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"【バトルアックス】",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"攻撃時、相手の装備の耐久を確定で5減らす",underlined:0b}],text:""},{extra:[{bold:0b,italic:0b,obfuscated:0b,strikethrough:0b,text:"",underlined:0b}],text:""},{extra:[{bold:0b,color:"red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・追加エンチャント不可",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_red",italic:0b,obfuscated:0b,strikethrough:0b,text:"・サーバー唯一",underlined:0b}],text:""}]'
+      minecraft:tooltip_display: '{hidden_components:["minecraft:enchantments","minecraft:unbreakable"]}'
+      minecraft:enchantments: '{"minecraft:sharpness":3}'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"バトルアックス",underlined:0b}],text:""}'
+      minecraft:custom_data: '{PublicBukkitValues:{"executableitems:ei-id":"BattleAxe","score:usage":-1}}'
+      minecraft:repairable: '{items:"minecraft:netherite_ingot"}'
+    schema_version: 1
+  lockedMessage: Complete the required unlock to reveal this recipe.
+  recipeBookVisible: true
+  legendary: true
+  lockedPlaceholder: false
+  ingredients:
+    0:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 4
+      schema_version: 1
+    1:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_helmet
+      count: 1
+      schema_version: 1
+    2:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 4
+      schema_version: 1
+    3:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_chestplate
+      count: 1
+      schema_version: 1
+    4:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_axe
+      count: 1
+      schema_version: 1
+    5:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_boots
+      count: 1
+      schema_version: 1
+    6:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 4
+      schema_version: 1
+    7:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:netherite_leggings
+      count: 1
+      schema_version: 1
+    8:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4671
+      id: minecraft:diamond_block
+      count: 4
+      schema_version: 1
+  key: battle_axe
+  xpLevelCost: 0
+  globalLimit: 1
+  variantGroup: ''
+  commandsOnCraft: []
+  permission: ''
+  showCrafter: true
+  ingredientTags: {}
+  ingredientsPermission: ''
+  ignoreNbt: {}
+  alternatives: {}
+  chatCrafting: false
+  hiddenFromViewer: false
+  category: General
+  playerLimit: -1
+  cooldownSeconds: 0
+  viewerSlot: -1

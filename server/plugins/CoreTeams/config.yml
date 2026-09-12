@@ -1,0 +1,110 @@
+# CoreTeams Configuration
+# Vexor Core Studios
+
+# RANDOM generates IDs from 1-999. SEQUENTIAL generates the next free integer ID.
+generation-mode: RANDOM
+
+database:
+  # SQLite is recommended. YAML remains available for small/simple installations.
+  use-sqlite: true
+
+visuals:
+  prefix-mode: true
+  prefix-enabled: true
+  suffix-enabled: false
+  id-minimum-digits: 1
+  
+  # CoreTeams visual theme. Keep these as hex colours.
+  # Team colours remain separate and are used as local accents inside team-specific UI.
+  theme:
+    title: '#ECF3F7'
+    primary: '#7EA6C4'
+    accent: '#9AAEBD'
+    muted: '#718392'
+    success: '#79C49A'
+    danger: '#E37F83'
+    separator: '#3F4C58'
+    text: '#C8D4DE'
+    leadership: '#D8B96A'
+
+# Per-team caps use these semantics:
+# -1 = inherit this global value
+#  0 = unlimited
+# >0 = explicit cap
+max-team-members: 10
+
+friendly-fire:
+  enabled: false
+  # 0.0 = no teammate damage, 0.5 = half damage, 1.0 = full damage
+  multiplier: 1.0
+
+creation-enabled: true
+allow-custom-names: true
+open-joining: false
+death-elimination: false
+elimination-messages: false
+ping-enabled: false
+invite-expiration-seconds: 60
+
+team-name:
+  max-length: 16
+  # Applied to players without coreteams.teamname.formatting
+  allowed-pattern: ^[A-Za-z0-9 _-]+$
+
+# Team icon modes:
+# DISABLED          - no custom team icons; team cards use a colour fallback.
+# ADMIN_ONLY        - only staff can choose team icons.
+# PLAYER_SELECTABLE - team leaders may choose icons when they have coreteams.team.icon.
+team-icons:
+  mode: ADMIN_ONLY
+  categories:
+    blocks: true
+    items: true
+    colours: true
+    banners: true
+    heads: true
+    custom-model-data: true
+  # Optional custom model entries: MATERIAL:customModelData:Display Name
+  # Example: "PAPER:1001:Blue Shield"
+  custom-model-data: []
+
+autoteam:
+  exclude-spectators: true
+  preserve-existing: true
+  # Optional PlaceholderAPI numeric value used by balanced/snake/captains modes.
+  # When blank/unavailable, total experience is used as the balancing value.
+  balance-placeholder: ''
+
+voice:
+  auto-create: true
+  server-api-enabled: true
+
+# Per-player visual overrides are maintained automatically by /ta toggle prefix/suffix.
+disabled-prefixes: []
+disabled-suffixes: []
+
+messages:
+  prefix: <#7EA6C4>ᴄᴏʀᴇᴛᴇᴀᴍs <#3F4C58>› <#C8D4DE>
+  no-team: <#E37F83>You are not in a team.
+  team-joined: <#79C49A>✓ <#C8D4DE>You joined <#ECF3F7><id><#C8D4DE>.
+  team-left: <#9AAEBD>• <#C8D4DE>You left your team.
+  team-full: <#E37F83>× <#C8D4DE>That team is full.
+  team-created: <#79C49A>✓ <#C8D4DE>Team <#ECF3F7><id> <#C8D4DE>created.
+  already-in-team: <#E37F83>× <#C8D4DE>You are already in a team. Leave first.
+  invite-sent: <#79C49A>✓ <#C8D4DE>Invited <#ECF3F7><player> <#C8D4DE>to the team.
+  invite-received-format: <#9AAEBD>• <#ECF3F7><player> <#C8D4DE>invited you to <#ECF3F7><team>
+  invite-buttons: <#79C49A>[ACCEPT] <#3F4C58>· <#E37F83>[DENY]
+  invite-hover-accept: <#79C49A>Join team <id>
+  invite-hover-deny: <#E37F83>Decline this invite
+  no-invite: <#E37F83>× <#C8D4DE>You have no pending invites.
+  invite-accepted: <#79C49A>✓ <#C8D4DE>You accepted the invite.
+  invite-denied: <#9AAEBD>• <#C8D4DE>You declined the invite.
+  invite-expired-target: <#E37F83>× <#C8D4DE>Your invite to <team> expired.
+  invite-expired-sender: <#9AAEBD>• <#C8D4DE>The invite sent to <player> expired.
+  team-chat-format: <#3F4C58>[<team_color>Team <id></gradient><#3F4C58>] <#ECF3F7><player><#718392>
+    › <#C8D4DE><message>
+  cmd-disabled: <#E37F83>× <#C8D4DE>This command is currently disabled.
+  creation-name-required: '<#E37F83>× <#C8D4DE>Usage: /team create <name>'
+  name-too-long: <#E37F83>× <#C8D4DE>That team name is too long.
+  name-invalid: <#E37F83>× <#C8D4DE>That team name contains invalid characters.
+  joining-invite-required: <#E37F83>× <#C8D4DE>You need an invite to join this team.

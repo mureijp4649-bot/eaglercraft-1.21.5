@@ -1,0 +1,39 @@
+Messages_prefix: "&#84f542PasiVanish <DARK_GRAY>»<RESET> "
+
+vanish_on: "&aVanish attivato per {player}."
+vanish_off: "&cVanish disattivato per {player}."
+autovanish_on: "&aVanish attivato automaticamente all'ingresso."
+
+noperm: "&cNon hai il permesso per usare questo comando!"
+reloadsucces: "&aPlugin ricaricato con successo."
+reloadnoperm: "&cNon hai il permesso per ricaricare il plugin."
+
+
+
+MustProvideName: "&cDevi specificare un nome del giocatore."
+IncorrectName: "&cGiocatore {player} non trovato."
+CheckMaxPlayers: "&cPuoi controllare solo un giocatore alla volta!"
+YesVanish: "&aè in modalità vanish."
+NoVanish: "&cnon è in modalità vanish."
+
+listnpperm: "&cNon hai il permesso per vedere l'elenco dei giocatori in vanish."
+nonplayerlist: "&cNessun giocatore è in modalità vanish."
+abovelist: "&3Giocatori in modalità vanish: "
+
+help_above: "&aUsa uno dei comandi qui sotto:"
+help_check: "&fControlla se un giocatore è in vanish."
+help_info: "&fMostra informazioni sul plugin."
+help_vanish: "&fAttiva/disattiva vanish."
+help_reload: "&fRicarica la configurazione."
+help_list: "&fMostra i giocatori in vanish."
+help_broadcast: "&fInvia un messaggio di finto accesso."
+
+noBreak: "&cNon puoi rompere blocchi mentre sei in vanish."
+noPlace: "&cNon puoi piazzare blocchi mentre sei in vanish."
+noInteract: "&cNon puoi interagire mentre sei in vanish."
+noMove: "&cNon puoi muoverti mentre sei in vanish."
+noDrop: "&cNon puoi gettare oggetti mentre sei in vanish."
+noChangeGamemode: "&cNon puoi cambiare modalità di gioco mentre sei in vanish."
+noBedLeave: "&cNon puoi lasciare il letto mentre sei in vanish."
+noBedEnter: "&cNon puoi entrare nel letto mentre sei in vanish."
+noSprint: "&cNon puoi correre mentre sei in vanish."

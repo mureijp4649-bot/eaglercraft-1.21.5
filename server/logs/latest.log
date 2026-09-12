@@ -1,0 +1,1242 @@
+[06:56:33] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1064-azure (amd64)
+[06:56:33] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[06:56:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:56:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 37 plugins
+[06:56:44] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - EnhancedEchest (1.0.12), HidePlugins (2.0), PlugManX (3.0.2)
+[06:56:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (34):
+ - AdvancedSpyInventory (2.4.13), AxSmithing (1.9), Backuper (4.1.0), ClearLag (3.2.2), CoreTeams (4.0.0-SNAPSHOT), CustomAnvil (1.17.5), ExecutableItems (7.26.7.17), FakePopulation (1.2.0), FastAsyncWorldEdit (2.15.4+d8666b3), InteractiveChat (4.3.5.0), ItemEdit (3.7.10), ItemTag (3.7.7), LiteBans (2.18.6), LuckPerms (5.5.9), NBTAPI (2.16.0), OrbitalStrike (2.0.0), PasiVanish (2.3.7), PlaceholderAPI (2.11.7), PlayerTrackerr (1.0.0), PlsNoLag (1.0), ProtocolLib (5.4.0), RecipeCrafter (1.6.0), SCore (5.26.7.17), SetHome (6.2), SimpleMerchantEdit (1.0.1), SimpleTpa (8.0), Skript (2.16.1), TuffX (1.2.0), Vault (1.7.3-b131), ViaBackwards (5.10.0), ViaRewind (4.1.2), ViaVersion (5.10.0), skript-placeholders (1.7.2), skript-reflect (2.6.3)
+[06:56:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[06:56:57] [ServerMain/INFO]: Loaded 1470 recipes
+[06:56:57] [ServerMain/INFO]: Loaded 1584 advancements
+[06:56:57] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[06:56:58] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,265.5ms
+[06:56:59] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[06:56:59] [Server thread/INFO]: Loading properties
+[06:56:59] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[06:56:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[06:56:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:56:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:56:59] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[06:57:00] [Server thread/INFO]: Default game type: SURVIVAL
+[06:57:00] [Server thread/INFO]: Generating keypair
+[06:57:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:57:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:57:00] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[06:57:01] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loading 4 libraries... please wait
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-all/4.1.118.Final/netty-all-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-buffer/4.1.118.Final/netty-buffer-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec/4.1.118.Final/netty-codec-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-dns/4.1.118.Final/netty-codec-dns-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-haproxy/4.1.118.Final/netty-codec-haproxy-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-http/4.1.118.Final/netty-codec-http-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-http2/4.1.118.Final/netty-codec-http2-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-memcache/4.1.118.Final/netty-codec-memcache-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-mqtt/4.1.118.Final/netty-codec-mqtt-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-redis/4.1.118.Final/netty-codec-redis-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-smtp/4.1.118.Final/netty-codec-smtp-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-socks/4.1.118.Final/netty-codec-socks-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-stomp/4.1.118.Final/netty-codec-stomp-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-codec-xml/4.1.118.Final/netty-codec-xml-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-common/4.1.118.Final/netty-common-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-handler/4.1.118.Final/netty-handler-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-native-unix-common/4.1.118.Final/netty-transport-native-unix-common-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-handler-proxy/4.1.118.Final/netty-handler-proxy-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-handler-ssl-ocsp/4.1.118.Final/netty-handler-ssl-ocsp-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-resolver/4.1.118.Final/netty-resolver-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-resolver-dns/4.1.118.Final/netty-resolver-dns-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport/4.1.118.Final/netty-transport-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-rxtx/4.1.118.Final/netty-transport-rxtx-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-sctp/4.1.118.Final/netty-transport-sctp-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-udt/4.1.118.Final/netty-transport-udt-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-classes-epoll/4.1.118.Final/netty-transport-classes-epoll-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-classes-kqueue/4.1.118.Final/netty-transport-classes-kqueue-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.118.Final/netty-resolver-dns-classes-macos-4.1.118.Final.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-x86_64.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-aarch_64.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-native-epoll/4.1.118.Final/netty-transport-native-epoll-4.1.118.Final-linux-riscv64.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-x86_64.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-transport-native-kqueue/4.1.118.Final/netty-transport-native-kqueue-4.1.118.Final-osx-aarch_64.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-x86_64.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/io/netty/netty-resolver-dns-native-macos/4.1.118.Final/netty-resolver-dns-native-macos-4.1.118.Final-osx-aarch_64.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [SCore] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-api/5.1.1/adventure-api-5.1.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-key/5.1.1/adventure-key-5.1.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jetbrains/annotations/26.1.0/annotations-26.1.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-minimessage/5.1.1/adventure-text-minimessage-5.1.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-gson/5.1.1/adventure-text-serializer-gson-5.1.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-json/5.1.1/adventure-text-serializer-json-5.1.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-commons/5.1.1/adventure-text-serializer-commons-5.1.1.jar
+[06:57:02] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-legacy/5.1.1/adventure-text-serializer-legacy-5.1.1.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loading 4 libraries... please wait
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jetbrains/kotlin/kotlin-stdlib/2.3.0/kotlin-stdlib-2.3.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/org/jetbrains/annotations/13.0/annotations-13.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-minimessage/4.25.0/adventure-text-minimessage-4.25.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-api/4.25.0/adventure-api-4.25.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-key/4.25.0/adventure-key-4.25.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-plain/4.25.0/adventure-text-serializer-plain-4.25.0.jar
+[06:57:03] [Server thread/INFO]: [SpigotLibraryLoader] [Custom Anvil] Loaded library /workspaces/eaglercraft-1.21.5/server/libraries/net/kyori/adventure-text-serializer-legacy/4.25.0/adventure-text-serializer-legacy-4.25.0.jar
+[06:57:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+[06:57:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+[06:57:04] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:57:05] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:57:05] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:57:06] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[06:57:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
+[06:57:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:57:07] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[06:57:08] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.11) has not yet been tested! Proceed with caution.
+[06:57:08] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[06:57:08] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[06:57:08] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.16.0
+[06:57:08] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.11! Trying to find NMS support
+[06:57:08] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R7' loaded!
+[06:57:08] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[06:57:08] [Server thread/INFO]: [SCore] Loading server plugin SCore v5.26.7.17
+[06:57:08] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.10
+[06:57:08] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.16.1
+[06:57:08] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.4+d8666b3
+[06:57:08] [Thread-5/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[06:57:10] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4f2b3db8]
+[06:57:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+[06:57:10] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.2
+[06:57:10] [Server thread/INFO]: [ItemTag] Loading server plugin ItemTag v3.7.7
+[06:57:10] [Server thread/INFO]: [CoreTeams] Loading server plugin CoreTeams v4.0.0-SNAPSHOT
+[06:57:10] [Server thread/INFO]: [Custom Anvil] Loading server plugin CustomAnvil v1.17.5
+[06:57:10] [Server thread/INFO]: [SimpleMerchantEdit] Loading server plugin SimpleMerchantEdit v1.0.1
+[06:57:10] [Server thread/INFO]: [RecipeCrafter] Loading server plugin RecipeCrafter v1.6.0
+[06:57:10] [Server thread/INFO]: [AdvancedSpyInventory] Loading server plugin AdvancedSpyInventory v2.4.13
+[06:57:10] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2
+[06:57:10] [Server thread/INFO]: [PasiVanish] Loading server plugin PasiVanish v2.3.7
+[06:57:10] [Server thread/INFO]: [InteractiveChat] Loading server plugin InteractiveChat v4.3.5.0
+[06:57:10] [Server thread/INFO]: [skript-placeholders] Loading server plugin skript-placeholders v1.7.2
+[06:57:10] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v7.26.7.17
+[06:57:10] [Server thread/INFO]: [EnhancedEchest] Loading server plugin EnhancedEchest v1.0.12
+[06:57:10] [Server thread/INFO]: [FakePopulation] Loading server plugin FakePopulation v1.2.0
+[06:57:10] [Server thread/INFO]: [HidePlugins] Loading server plugin HidePlugins v2.0
+[06:57:10] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.2
+[06:57:10] [Server thread/INFO]: [AxSmithing] Loading server plugin AxSmithing v1.9
+[06:57:10] [Server thread/INFO]: [PlsNoLag] Loading server plugin PlsNoLag v1.0
+[06:57:10] [Server thread/INFO]: [TuffX] Loading server plugin TuffX v1.2.0
+[06:57:12] [Server thread/INFO]: [PlayerTrackerr] Loading server plugin PlayerTrackerr v1.0.0
+[06:57:12] [Server thread/INFO]: [skript-reflect] Loading server plugin skript-reflect v2.6.3
+[06:57:12] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[06:57:12] [Server thread/INFO]: [Backuper] Loading server plugin Backuper v4.1.0
+[06:57:12] [Server thread/INFO]: [CommandAPI] Loaded version PaperNMS_1_21_R7
+[06:57:12] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[06:57:12] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[06:57:12] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[06:57:12] [Server thread/INFO]: [CommandAPI] Loaded platform CommandAPIPaper > CommandAPIBukkit
+[06:57:12] [Server thread/INFO]: [LiteBans] Loading server plugin LiteBans v2.18.6
+[06:57:12] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v8.0
+[06:57:12] [Server thread/INFO]: [OrbitalStrike] Loading server plugin OrbitalStrike v2.0.0
+[06:57:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:57:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
+[06:57:13] [Server thread/INFO]:         __    
+[06:57:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.9
+[06:57:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[06:57:13] [Server thread/INFO]: 
+[06:57:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:57:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:57:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:57:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4460ms)
+[06:57:16] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[06:57:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[06:57:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[06:57:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[06:57:17] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[06:57:17] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.4+d8666b3
+[06:57:17] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[06:57:17] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[06:57:17] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:57:17] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[06:57:18] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_11.PaperweightFaweAdapter as the Bukkit adapter
+[06:57:21] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.2
+[06:57:22] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[06:57:22] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[06:57:22] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[06:57:22] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[06:57:22] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[06:57:22] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[06:57:22] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[06:57:22] [Server thread/INFO]: [RecipeCrafter] Enabling RecipeCrafter v1.6.0
+[06:57:23] [Server thread/INFO]: [RecipeCrafter] Loaded 18 custom recipes.
+[06:57:23] [Server thread/INFO]: [RecipeCrafter] RecipeCrafter v1.6.0 enabled with 18 recipes.
+[06:57:23] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.2
+[06:57:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:57:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:57:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:57:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:57:23] [Server thread/INFO]: Preparing level "world"
+[06:57:23] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[06:57:23] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[06:57:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[06:57:24] [Server thread/INFO]: Prepared spawn area in 1 ms
+[06:57:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[06:57:24] [Server thread/INFO]: Prepared spawn area in 3 ms
+[06:57:24] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[06:57:24] [Server thread/INFO]: Preparing spawn area: 100%
+[06:57:24] [Server thread/INFO]: Prepared spawn area in 3 ms
+[06:57:24] [Server thread/INFO]: Done preparing level "world" (1.032s)
+[06:57:24] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+[06:57:24] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.11 (774)
+[06:57:24] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[06:57:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[06:57:25] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.16.0
+[06:57:25] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[06:57:25] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[06:57:25] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[06:57:25] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[06:57:34] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[06:57:34] [Server thread/INFO]: [SCore] Enabling SCore v5.26.7.17
+[06:57:34] [Server thread/INFO]: SCore The library part of SCore is initializing ... (by SCore)
+[06:57:34] [Server thread/INFO]: SCore ExecutableItems hooked !  (7.26.7.17) Load After
+[06:57:34] [Server thread/INFO]: SCore PlaceholderAPI hooked !  (2.11.7)  Load Before
+[06:57:34] [Server thread/INFO]: SCore Vault hooked !  (1.7.3-b131)  Load Before
+[06:57:34] [Server thread/INFO]: SCore FastAsyncWorldEdit hooked !  (2.15.4+d8666b3)  Load Before
+[06:57:34] [Server thread/INFO]: SCore ProtocolLib hooked !
+[06:57:34] [Server thread/INFO]: SCore Locale setup: EN
+[06:57:34] [Server thread/INFO]: SCore NBTAPI hooked !  (2.16.0)  Load Before
+[06:57:34] [Server thread/INFO]: SCore WorldEdit hooked !  (2.15.4+d8666b3)  Load Before
+[06:57:34] [Server thread/INFO]: SCore Language of the editor setup on EN
+[06:57:34] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[06:57:34] [Server thread/INFO]: SCore Connection to the db...
+[06:57:34] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[06:57:34] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table AbsorptionQuery if not exists...
+[06:57:34] [Server thread/INFO]: SCore Creating table ATemporaryAttributesQuery if not exists...
+[06:57:34] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[06:57:34] [Server thread/INFO]: ================ SCore ================
+[06:57:34] [Server thread/INFO]: SCore is running on Folia
+[06:57:34] [Server thread/INFO]: SCore is running on Paper or fork
+[06:57:34] [Server thread/INFO]: SCore Version of the server 1.21.11-132-c5eb079 (MC: 1.21.11) !
+[06:57:34] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[06:57:35] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[06:57:35] [Server thread/INFO]: [SCore] CustomListsManager: Loaded entity list 'ANNOYING_MOBS' with 3 entries
+[06:57:35] [Server thread/INFO]: [SCore] CustomListsManager: Loaded entity list 'HOSTILE_MOBS' with 4 entries
+[06:57:35] [Server thread/INFO]: [SCore] CustomListsManager: Loaded block list 'STUPID_BLOCKS' with 3 entries
+[06:57:35] [Server thread/INFO]: [SCore] CustomListsManager: Loaded block list 'ORES' with 5 entries
+[06:57:35] [Server thread/INFO]: [SCore] CustomListsManager: Loaded 2 entity lists and 2 block lists
+[06:57:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SCore [1.0.0]
+[06:57:35] [Server thread/INFO]: ================ SCore ================
+[06:57:35] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
+[06:57:35] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[06:57:36] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[06:57:36] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[06:57:36] [Server thread/INFO]: [ItemEdit] placeholders:
+[06:57:36] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[06:57:36] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[06:57:36] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[06:57:36] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[06:57:36] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[06:57:36] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[06:57:36] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[06:57:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[06:57:36] [Server thread/INFO]: [ItemEdit] # Enabled (took 467 ms)
+[06:57:36] [Server thread/INFO]: [Skript] Enabling Skript v2.16.1
+[06:57:36] [Server thread/INFO]: [Skript] Successfully generated the config and the example scripts.
+[06:57:37] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] A new version of Skript is available: 2.16.2 (you're currently running 2.16.1)
+[06:57:37] [ForkJoinPool.commonPool-worker-1/INFO]: Download it at: https://github.com/SkriptLang/Skript/releases/download/2.16.2/Skript-2.16.2.jar
+[06:57:39] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[06:57:39] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
+[06:57:39] [Server thread/INFO]: [ItemTag] Enabling ItemTag v3.7.7
+[06:57:39] [Server thread/INFO]: [ItemTag] Data using Spigot PersistentDataContainer
+[06:57:40] [Server thread/INFO]: [ItemTag] Hooking into PlaceholderApi
+[06:57:40] [Server thread/INFO]: [ItemTag] Hooked into PlaceHolderAPI:
+[06:57:40] [Server thread/INFO]: [ItemTag] placeholders:
+[06:57:40] [Server thread/INFO]: [ItemTag]   %itemtag_cooldown_<timeunit>_[cooldownid]%
+[06:57:40] [Server thread/INFO]: [ItemTag]     shows how much cooldown has selected cooldownid for player
+[06:57:40] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[06:57:40] [Server thread/INFO]: [ItemTag]     [cooldownid] for cooldown type, by default default
+[06:57:40] [Server thread/INFO]: [ItemTag]     example: %itemtag_cooldown_s_anid%
+[06:57:40] [Server thread/INFO]: [ItemTag]   %itemtag_handcooldown_<timeunit>%
+[06:57:40] [Server thread/INFO]: [ItemTag]     shows how much cooldown has player on the item in his hand
+[06:57:40] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[06:57:40] [Server thread/INFO]: [ItemTag]     example: %itemtag_handcooldown_s%
+[06:57:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemtag [1.0]
+[06:57:40] [Server thread/INFO]: [ItemTag] # Enabled (took 211 ms)
+[06:57:40] [Server thread/INFO]: [CoreTeams] Enabling CoreTeams v4.0.0-SNAPSHOT
+[06:57:40] [Server thread/INFO]: 
+CoreTeams v4.0.0-SNAPSHOT
+Team management by Vexor Core Studios
+
+[06:57:40] [Server thread/INFO]: [VexorCore.Logix.coreTeams.libs.hikari.HikariDataSource] CoreTeamsPool - Starting...
+[06:57:40] [Server thread/INFO]: [VexorCore.Logix.coreTeams.libs.hikari.pool.HikariPool] CoreTeamsPool - Added connection org.sqlite.jdbc4.JDBC4Connection@6fa60f17
+[06:57:40] [Server thread/INFO]: [VexorCore.Logix.coreTeams.libs.hikari.HikariDataSource] CoreTeamsPool - Start completed.
+[06:57:40] [Server thread/INFO]: [CoreTeams] CoreTeams enabled.
+[06:57:40] [Server thread/INFO]: [Custom Anvil] Enabling CustomAnvil v1.17.5
+[06:57:41] [Server thread/INFO]: [SimpleMerchantEdit] Enabling SimpleMerchantEdit v1.0.1
+[06:57:41] [Server thread/INFO]: [SimpleMerchantEdit] ~ Created by PixelCatt ~
+[06:57:41] [Server thread/INFO]: [SimpleMerchantEdit] Initializing Merchant-Manager...
+[06:57:41] [Server thread/INFO]: [SimpleMerchantEdit] Initializing Event Listeners...
+[06:57:41] [Server thread/INFO]: [SimpleMerchantEdit] Loading Configuration...
+[06:57:41] [Server thread/INFO]: [SimpleMerchantEdit] Checking for Updates...
+[06:57:41] [Server thread/INFO]: [SimpleMerchantEdit] No new Updates available.
+[06:57:41] [Server thread/INFO]: [AdvancedSpyInventory] Enabling AdvancedSpyInventory v2.4.13
+[06:57:42] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2
+[06:57:43] [Server thread/INFO]: [PasiVanish] Enabling PasiVanish v2.3.7
+[06:57:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: pv [2.3.7]
+[06:57:43] [Server thread/INFO]: [PasiVanish] PlaceholderAPI detected - placeholders registered
+[06:57:43] [Server thread/INFO]: [PasiVanish] ✅ PasiVanish enabled
+[06:57:43] [Server thread/INFO]: [InteractiveChat] Enabling InteractiveChat v4.3.5.0
+[06:57:49] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5684 aliases in 9176ms
+[06:57:49] [ForkJoinPool.commonPool-worker-2/WARN]: [Custom Anvil] An update may be available: 2.1.2
+[06:57:55] [Server thread/INFO]: [InteractiveChat] No custom ProtocolProvider provided, using default ProtocolLib provider.
+[06:57:55] [Server thread/INFO]: [InteractiveChat] Opened Sqlite database successfully
+[06:57:55] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into ViaVersion!
+[06:57:55] [Server thread/INFO]: [InteractiveChat] InteractiveChat has hooked into LuckPerms!
+[06:57:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: interactivechat [4.3.5.0]
+[06:57:55] [Server thread/INFO]: [InteractiveChat] InteractiveChat has been Enabled!
+[06:57:55] [Server thread/INFO]: [skript-placeholders] Enabling skript-placeholders v1.7.2
+[06:57:55] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v7.26.7.17
+[06:57:55] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[06:57:59] [Server thread/INFO]: Injector com.ssomar.score.pack.custom.PackHttpInjector registered (TPack selfhosting)
+[06:58:02] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 17
+[06:58:02] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[06:58:02] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[06:58:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ExecutableItems [1.0.0]
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] Enabling EnhancedEchest v1.0.12
+[06:58:02] [Server thread/INFO]: [com.enhancedechest.libs.hikari.HikariDataSource] EnhancedEchest-SQLite - Starting...
+[06:58:02] [Server thread/INFO]: [com.enhancedechest.libs.hikari.pool.HikariPool] EnhancedEchest-SQLite - Added connection org.sqlite.jdbc4.JDBC4Connection@62f5e10f
+[06:58:02] [Server thread/INFO]: [com.enhancedechest.libs.hikari.HikariDataSource] EnhancedEchest-SQLite - Start completed.
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] Storage ready — 11 ender chest row(s) in the database; player data is loaded into memory on join / first use
+[06:58:02] [EnhancedEchest-db/INFO]: [EnhancedEchest] Loaded 11 known player name(s) for offline lookups.
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] > ——————————————[ EnhancedEchest ]——————————————
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >   Version   : 1.0.12
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >   Platform  : Paper
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >   Storage   : SQLITE
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >   Language  : en_US
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >   Migration : OFF
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >   Backup    : every 6h
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >   X-Server  : OFF
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] >
+[06:58:02] [Server thread/INFO]: [EnhancedEchest] > ——————————————[ EnhancedEchest ]——————————————
+[06:58:02] [Server thread/INFO]: [FakePopulation] Enabling FakePopulation v1.2.0
+[06:58:02] [Server thread/INFO]: [FakePopulation] Server-list fake player count hook enabled.
+[06:58:02] [Server thread/INFO]: [FakePopulation] FakePopulation 1.2.0 enabled. Author: NoS1qnal
+[06:58:02] [Server thread/INFO]: [HidePlugins] Enabling HidePlugins v2.0
+[06:58:02] [Server thread/INFO]: [HidePlugins] [ACF] Enabled Asynchronous Tab Completion Support!
+[06:58:02] [Server thread/INFO]: [AxSmithing] Enabling AxSmithing v1.9
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] > ——————————————[ EnhancedEchest ]——————————————
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] >
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] >   UPDATE AVAILABLE!
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] >   Current  : 1.0.12
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] >   Latest   : 1.2.0
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] >   Download : https://modrinth.com/plugin/xgEWccga
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] >
+[06:58:03] [Folia Async Scheduler Thread #3/WARN]: [EnhancedEchest] > ——————————————[ EnhancedEchest ]——————————————
+[06:58:03] [Server thread/INFO]: [PlsNoLag] Enabling PlsNoLag v1.0
+[06:58:03] [Server thread/INFO]: [PlsNoLag] PlsNoLag is starting up...
+[06:58:03] [Server thread/INFO]: [PlsNoLag] PlsNoLag is now enabled!
+[06:58:03] [Server thread/INFO]: [TuffX] Enabling TuffX v1.2.0
+[06:58:03] [Server thread/INFO]: [TuffX] Server Minecraft Version: 1.21.11
+[06:58:03] [Server thread/INFO]: [TuffX] 
+[06:58:03] [Server thread/INFO]: [TuffX] ████████╗██╗   ██╗███████╗ ███████╗ ██╗  ██╗
+[06:58:03] [Server thread/INFO]: [TuffX] ╚══██╔══╝██║   ██║██╔════╝ ██╔════╝ ╚██╗██╔╝
+[06:58:03] [Server thread/INFO]: [TuffX]    ██║   ██║   ██║██████╗  ██████╗   ╚███╔╝ 
+[06:58:03] [Server thread/INFO]: [TuffX]    ██║   ██║   ██║██╔═══╝  ██╔═══╝   ██╔██╗ 
+[06:58:03] [Server thread/INFO]: [TuffX]    ██║   ╚██████╔╝██║      ██║      ██╔╝╚██╗
+[06:58:03] [Server thread/INFO]: [TuffX]    ╚═╝    ╚═════╝ ╚═╝      ╚═╝      ╚═╝  ╚═╝
+[06:58:03] [Server thread/INFO]: [TuffX] 
+[06:58:03] [Server thread/INFO]: [TuffX] Below y0 and TuffX programmed by Potato
+[06:58:03] [Server thread/INFO]: [PlayerTrackerr] Enabling PlayerTrackerr v1.0.0
+[06:58:03] [Server thread/INFO]: [dev.quacc.shaded.reflections.Reflections] Reflections took 79 ms to scan 1 urls, producing 2 keys and 8 values
+[06:58:03] [Server thread/INFO]: [skript-reflect] Enabling skript-reflect v2.6.3
+[06:58:03] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[06:58:03] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[06:58:04] [Server thread/INFO]: [ClearLag] Loading modules...
+[06:58:04] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[06:58:04] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[06:58:04] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[06:58:04] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[06:58:04] [Thread-17/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[06:58:04] [Thread-17/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[06:58:04] [Thread-17/WARN]: 	at clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[06:58:04] [Thread-17/WARN]: 	at clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[06:58:04] [Thread-17/WARN]: 	at clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[06:58:04] [Thread-17/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[06:58:04] [Server thread/INFO]: [Backuper] Enabling Backuper v4.1.0
+[06:58:04] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[06:58:04] [Server thread/INFO]: [Backuper] loading config...
+[06:58:04] [Server thread/INFO]: [Backuper] Config has been loaded
+[06:58:04] [Server thread/INFO]: [org.quartz.core.SchedulerSignalerImpl] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[06:58:04] [Server thread/INFO]: [org.quartz.core.QuartzScheduler] Quartz Scheduler v2.5.2 created.
+[06:58:04] [Server thread/INFO]: [org.quartz.simpl.RAMJobStore] RAMJobStore initialized.
+[06:58:04] [Server thread/INFO]: [org.quartz.core.QuartzScheduler] Scheduler meta-data: Quartz Scheduler (v2.5.2) 'backuper' with instanceId 'main'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[06:58:04] [Server thread/INFO]: [org.quartz.impl.DirectSchedulerFactory] Quartz scheduler 'backuper
+[06:58:04] [Server thread/INFO]: [org.quartz.impl.DirectSchedulerFactory] Quartz scheduler version: 2.5.2
+[06:58:04] [Server thread/INFO]: [org.quartz.core.QuartzScheduler] Scheduler backuper_$_main started.
+[06:58:04] [Server thread/INFO]: [Backuper] Initializing BStats...
+[06:58:04] [ForkJoinPool-7-worker-1/INFO]: [Backuper] Connection to backuper storage established successfully
+[06:58:04] [ForkJoinPool-7-worker-1/INFO]: [Backuper] Connection to local storage established successfully
+[06:58:04] [Server thread/INFO]: [Backuper] BStats initialization completed
+[06:58:04] [Server thread/INFO]: [Backuper] Initializing auto backup...
+[06:58:04] [Server thread/INFO]: [Backuper] Auto backup initialization completed
+[06:58:04] [Server thread/INFO]: [Backuper] Backuper plugin has been enabled!
+[06:58:04] [Server thread/INFO]: [LiteBans] Enabling LiteBans v2.18.6
+[06:58:04] [Server thread/INFO]: [LiteBans] [STDOUT] [Spigotunlocked.com] - Dnpombo
+[06:58:04] [Server thread/WARN]: Nag author(s): '[Ruan]' of 'LiteBans v2.18.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[06:58:04] [ForkJoinPool-7-worker-2/INFO]: [Backuper] 
+------------------------------------------
+Issue tracking
+------------------------------------------
+Please, if you find any issues related to the Backuper
+Create an issue using the link: https://github.com/DVDishka/Backuper/issues
+------------------------------------------
+[06:58:05] [Server thread/INFO]: [LiteBans] Using system locale (en)
+[06:58:05] [Server thread/INFO]: [LiteBans] Loaded 2 templates from templates.yml!
+[06:58:05] [Server thread/INFO]: [LiteBans] Loading: h2 1.4.197
+[06:58:05] [Server thread/INFO]: [LiteBans] Connecting to database...
+[06:58:06] [Server thread/INFO]: [LiteBans] Connected to H2 database successfully (650.2 ms).
+[06:58:06] [Server thread/INFO]: [LiteBans] Database connection fully initialized (660.9 ms).
+[06:58:06] [Server thread/INFO]: [LiteBans] v2.18.6 enabled. Startup took 676 ms.
+[06:58:06] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v8.0
+[06:58:06] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[06:58:06] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 8.0
+[06:58:06] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[06:58:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SimpleTpa [8.0]
+[06:58:06] [Server thread/INFO]: [OrbitalStrike] Enabling OrbitalStrike v2.0.0
+[06:58:06] [Server thread/INFO]: [OrbitalStrikeCannon] WorldGuard not found — osc-enable flag check will be skipped.
+[06:58:06] [Server thread/INFO]: 
+[06:58:06] [Server thread/INFO]:     ██████╗ ██████╗ ██████╗ ██╗████████╗ █████╗ ██╗     
+[06:58:06] [Server thread/INFO]:    ██╔═══██╗██╔══██╗██╔══██╗██║╚══██╔══╝██╔══██╗██║     
+[06:58:06] [Server thread/INFO]:    ██║   ██║██████╔╝██████╔╝██║   ██║   ███████║██║     
+[06:58:06] [Server thread/INFO]:    ██║   ██║██╔══██╗██╔══██╗██║   ██║   ██╔══██║██║     
+[06:58:06] [Server thread/INFO]:    ╚██████╔╝██║  ██║██████╔╝██║   ██║   ██║  ██║███████╗
+[06:58:06] [Server thread/INFO]:     ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
+[06:58:06] [Server thread/INFO]: 
+[06:58:06] [Server thread/INFO]:    ███████╗████████╗██████╗ ██╗██╗  ██╗███████╗
+[06:58:06] [Server thread/INFO]:    ██╔════╝╚══██╔══╝██╔══██╗██║██║ ██╔╝██╔════╝
+[06:58:06] [Server thread/INFO]:    ███████╗   ██║   ██████╔╝██║█████╔╝ █████╗  
+[06:58:06] [Server thread/INFO]:    ╚════██║   ██║   ██╔══██╗██║██╔═██╗ ██╔══╝  
+[06:58:06] [Server thread/INFO]:    ███████║   ██║   ██║  ██║██║██║  ██╗███████╗
+[06:58:06] [Server thread/INFO]:    ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝
+[06:58:06] [Server thread/INFO]: 
+[06:58:06] [Server thread/INFO]:     ██████╗ █████╗ ███╗   ██╗███╗   ██╗ ██████╗ ███╗   ██╗
+[06:58:06] [Server thread/INFO]:    ██╔════╝██╔══██╗████╗  ██║████╗  ██║██╔═══██╗████╗  ██║
+[06:58:06] [Server thread/INFO]:    ██║     ███████║██╔██╗ ██║██╔██╗ ██║██║   ██║██╔██╗ ██║
+[06:58:06] [Server thread/INFO]:    ██║     ██╔══██║██║╚██╗██║██║╚██╗██║██║   ██║██║╚██╗██║
+[06:58:06] [Server thread/INFO]:    ╚██████╗██║  ██║██║ ╚████║██║ ╚████║╚██████╔╝██║ ╚████║
+[06:58:06] [Server thread/INFO]:     ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═══╝
+[06:58:06] [Server thread/INFO]: 
+[06:58:06] [Server thread/INFO]:          Orbital Strike Cannon
+[06:58:06] [Server thread/INFO]:          Version 2.0.0
+[06:58:06] [Server thread/INFO]:          Development by NguyenDevs
+[06:58:06] [Server thread/INFO]: 
+[06:58:06] [Server thread/INFO]: [OrbitalStrikeCannon] OrbitalStrikeCannon plugin enabled successfully!
+[06:58:06] [Server thread/INFO]: [spark] Starting background profiler...
+[06:58:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[06:58:08] [Server thread/INFO]: Running delayed init tasks
+[06:58:08] [Craft Scheduler Thread - 7 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[06:58:08] [Craft Scheduler Thread - 10 - InteractiveChat/INFO]: [InteractiveChat] Loading languages...
+[06:58:08] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] Checking for Updates ... 
+[06:58:08] [Craft Scheduler Thread - 12 - OrbitalStrike/INFO]: [OrbitalStrikeCannon] You are running the latest version: 2.0.0
+[06:58:08] [Server thread/INFO]: [Skript] Loading variables...
+[06:58:08] [Server thread/INFO]: [Skript] Loaded 111 variables in 0.0 seconds
+[06:58:08] [Craft Scheduler Thread - 13 - Vault/INFO]: [Vault] No new version available
+[06:58:08] [Craft Scheduler Thread - 9 - PasiVanish/INFO]: [PasiVanish] Plugin is up to date. Version: 2.3.7
+[06:58:08] [Craft Scheduler Thread - 5 - RecipeCrafter/INFO]: [RecipeCrafter] RecipeCrafter 1.6.1 is available for Minecraft 1.21.11.
+[06:58:10] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[06:58:10] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 12 structures in 1.85 seconds
+[06:58:10] [Server thread/INFO]: [Skript] Finished loading.
+[06:58:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: fakepopulation [1.2.0]
+[06:58:11] [Server thread/INFO]: [FakePopulation] PlaceholderAPI expansion registered.
+[06:58:11] [Server thread/INFO]: [TuffX] Loading mappings from 1.21.11-mappings.json
+[06:58:12] [Craft Scheduler Thread - 11 - InteractiveChat/INFO]: [InteractiveChat] Loaded all 1 languages!
+[06:58:12] [Server thread/INFO]: [TuffX] Loaded 29671 legacy mappings.
+[06:58:12] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.11.0, you're on: 5.10.0
+[06:58:12] [Server thread/INFO]: Done (100.327s)! For help, type "help"
+[06:58:12] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.12.3) is available at:
+[06:58:12] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[06:58:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: coreteams [4.0.0-SNAPSHOT]
+[06:58:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[06:58:12] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[06:58:13] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[06:58:13] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[06:58:13] [Paper Async Task Handler Thread - 1/WARN]: However, you are 4 release(s) behind the latest stable release (26.2)!
+[06:58:13] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[06:58:13] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[06:58:13] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[06:58:13] [Server thread/INFO]: [Backuper] Server will be backed up in 1 second(s)
+[06:58:13] [ForkJoinPool-7-worker-2/INFO]: [Backuper] 
+------------------------------------------
+The Backup task has been started
+------------------------------------------
+You can check the task status using command
+/backuper task status
+You can cancel the task using command
+/backuper task cancel
+------------------------------------------
+[06:58:13] [ForkJoinPool-7-worker-2/INFO]: [Backuper] The backup cycle will be skipped since there were no changes from the previous backup
+[06:58:13] [ForkJoinPool-7-worker-2/INFO]: [Backuper] 
+------------------------------------------
+The Backup task completed
+------------------------------------------
+[06:58:14] [Server thread/INFO]: [Backuper] Server will be backed up in 60 second(s)
+[06:59:26] [User Authenticator #0/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[06:59:26] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, InteractiveChat, ProtocolLib]
+[06:59:30] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.16.2->1.16.1) Unknown legacy biome: dripstone_caves
+[06:59:30] [Server thread/INFO]: aika joined the game
+[06:59:31] [Server thread/INFO]: aika[/127.0.0.1:45394] logged in with entity id 1 at ([world_the_end]4471.8978536717705, 85.0, 1706.85961881258)
+[06:59:40] [Folia Async Scheduler Thread #2/INFO]: Pack hosted at: http://127.0.0.1:25565/score/ExecutableItems_Pack (with local IP)
+[06:59:40] [Folia Async Scheduler Thread #2/INFO]: WARNING: Self-hosting may not work on all hosting providers due to firewall/NAT restrictions.
+[06:59:40] [Folia Async Scheduler Thread #2/INFO]: If the resource pack fails to load for players, disable self-hosting by setting 'selfHostPack: false' in your config.yml
+[06:59:40] [Folia Async Scheduler Thread #2/INFO]: and configure 'texturesPackUrl' with an external hosting URL (e.g., Dropbox, GitHub Pages).
+[06:59:42] [Server thread/INFO]: aika issued server command: /backuper reload
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.core.QuartzScheduler] Scheduler backuper_$_main shutting down.
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.core.QuartzScheduler] Scheduler backuper_$_main paused.
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.core.QuartzScheduler] Scheduler backuper_$_main shutdown complete.
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [Backuper] loading config...
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [Backuper] Config has been loaded
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.core.SchedulerSignalerImpl] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.core.QuartzScheduler] Quartz Scheduler v2.5.2 created.
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.simpl.RAMJobStore] RAMJobStore initialized.
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.core.QuartzScheduler] Scheduler meta-data: Quartz Scheduler (v2.5.2) 'backuper' with instanceId 'main'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.impl.DirectSchedulerFactory] Quartz scheduler 'backuper
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.impl.DirectSchedulerFactory] Quartz scheduler version: 2.5.2
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [org.quartz.core.QuartzScheduler] Scheduler backuper_$_main started.
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [Backuper] Initializing BStats...
+[06:59:42] [ForkJoinPool-10-worker-1/INFO]: [Backuper] Connection to backuper storage established successfully
+[06:59:42] [ForkJoinPool-10-worker-1/INFO]: [Backuper] Connection to local storage established successfully
+[06:59:42] [ForkJoinPool-7-worker-3/INFO]: [Backuper] BStats initialization completed
+[06:59:48] [Server thread/INFO]: aika issued server command: /backuper backup saba
+[06:59:52] [Server thread/INFO]: aika issued server command: /backuper backup local saba
+[06:59:54] [Server thread/INFO]: aika issued server command: /backuper backup local
+[06:59:54] [Server thread/INFO]: [Backuper] Server will be backed up in 1 second(s)
+[06:59:55] [Server thread/INFO]: [Backuper] 
+---------------
+The Backup task has been started
+---------------
+[STATUS] [CANCEL]
+---------------
+[07:00:18] [Server thread/INFO]: aika issued server command: /backuper task status
+[07:00:30] [Server thread/INFO]: aika issued server command: /backuper account
+[07:00:32] [Server thread/INFO]: aika issued server command: /backuper account
+[07:00:34] [Server thread/INFO]: aika issued server command: /backuper task
+[07:00:37] [Server thread/INFO]: aika issued server command: /backuper task status
+[07:00:42] [Server thread/INFO]: aika issued server command: /backuper list
+[07:00:45] [Server thread/INFO]: aika issued server command: /backuper menu
+[07:00:47] [Server thread/INFO]: aika issued server command: /backuper menu local
+[07:00:50] [Server thread/INFO]: aika issued server command: /backuper menu local aika
+[07:01:23] [Server thread/INFO]: aika issued server command: /backuper backup local restart
+[07:01:31] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ?
+[07:01:38] [Craft Scheduler Thread - 9 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> backup dekitenakune?
+[07:03:20] [Server thread/INFO]: aika was kicked due to keepalive timeout!
+[07:03:20] [Server thread/INFO]: aika lost connection: Timed out
+[07:03:20] [Server thread/INFO]: aika left the game
+[07:06:44] [User Authenticator #1/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:06:45] [Server thread/INFO]: aika joined the game
+[07:06:45] [Server thread/INFO]: aika[/127.0.0.1:50554] logged in with entity id 374 at ([world_the_end]4485.093742334041, 78.0, 1707.815516256474)
+[07:06:50] [User Authenticator #1/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[07:06:52] [Netty Epoll IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[07:06:52] [Server thread/INFO]: adepen1210 joined the game
+[07:06:52] [Server thread/INFO]: adepen1210[/127.0.0.1:50562] logged in with entity id 464 at ([world]-98.5, 123.0, -487.5)
+[07:06:53] [Server thread/INFO]: aika issued server command: /backuper reloa
+[07:06:54] [Server thread/INFO]: aika issued server command: /backuper reload
+[07:06:55] [Netty Epoll IO #1/INFO]: Disconnecting adepen1210 for sending keepalive response (1073774) out-of-order!
+[07:06:55] [Server thread/INFO]: adepen1210 lost connection: Timed out
+[07:06:55] [Server thread/INFO]: adepen1210 left the game
+[07:06:55] [Craft Scheduler Thread - 25 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> yo
+[07:06:58] [Craft Scheduler Thread - 20 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> a
+[07:07:04] [Server thread/INFO]: aika issued server command: /backuper backup
+[07:07:06] [Server thread/INFO]: aika issued server command: /backuper backup local
+[07:07:15] [Server thread/INFO]: aika issued server command: /backuper backup google drive
+[07:07:18] [Server thread/INFO]: aika issued server command: /backuper backup google_drive
+[07:07:19] [User Authenticator #1/INFO]: UUID of player adepen1210 is 7d5f0adc-0c59-3146-ab54-cf1d9e152430
+[07:07:19] [Server thread/INFO]: adepen1210 joined the game
+[07:07:19] [Server thread/INFO]: adepen1210[/127.0.0.1:59884] logged in with entity id 531 at ([world]-98.5, 123.0, -487.5)
+[07:07:23] [Craft Scheduler Thread - 20 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> yo
+[07:07:30] [Craft Scheduler Thread - 29 - InteractiveChat/INFO]: [Not Secure] <adepen1210> yo
+[07:07:36] [Craft Scheduler Thread - 27 - InteractiveChat/INFO]: [Not Secure] <adepen1210> 1.20.6 de ikenakatta...()
+[07:07:38] [Craft Scheduler Thread - 27 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ima backup no plugin sagasiteru
+[07:07:41] [Craft Scheduler Thread - 27 - InteractiveChat/INFO]: [Not Secure] <adepen1210> a-ne
+[07:07:47] [Craft Scheduler Thread - 24 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mousoro kurukigasuru seigenga
+[07:07:48] [Server thread/INFO]: adepen1210 issued server command: /pl
+[07:07:53] [Craft Scheduler Thread - 29 - InteractiveChat/INFO]: [Not Secure] <adepen1210> a-ne
+[07:07:57] [User Authenticator #1/INFO]: UUID of player hashi is e073b863-6de0-30d2-8c9d-228ff397f468
+[07:07:58] [Server thread/INFO]: hashi joined the game
+[07:07:58] [Server thread/INFO]: hashi[/127.0.0.1:49050] logged in with entity id 782 at ([world]152.28237472493046, 64.18335929606981, -1672.3255677655775)
+[07:08:00] [Craft Scheduler Thread - 20 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> codespace no naiyouwosa
+[07:08:05] [Craft Scheduler Thread - 29 - InteractiveChat/INFO]: [Not Secure] <adepen1210> un
+[07:08:09] [Craft Scheduler Thread - 24 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> ade san daa
+[07:08:09] [Craft Scheduler Thread - 24 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> main tokani idousuruhouhoutte nai?
+[07:08:19] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> aru
+[07:08:22] [Craft Scheduler Thread - 29 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mazi?
+[07:08:23] [Craft Scheduler Thread - 29 - InteractiveChat/INFO]: [Not Secure] <adepen1210> push dattakana
+[07:08:25] [Craft Scheduler Thread - 29 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> ade san ohisa
+[07:08:29] [Craft Scheduler Thread - 20 - InteractiveChat/INFO]: [Not Secure] <adepen1210> git de commit surunyo
+[07:08:35] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tyottomatte sirabetemiru
+[07:08:37] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> sono codespaces wo kidousiteru
+[07:08:41] [Craft Scheduler Thread - 24 - InteractiveChat/INFO]: [Not Secure] <adepen1210> repo ni
+[07:08:42] [Craft Scheduler Thread - 24 - InteractiveChat/INFO]: [Not Secure] <adepen1210> ireru
+[07:08:43] [Server thread/INFO]: hashi issued server command: /recipes
+[07:08:43] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[07:08:44] [Craft Scheduler Thread - 24 - InteractiveChat/INFO]: [Not Secure] <adepen1210> yo hashi
+[07:09:01] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> mou recipes nanimo naijan....
+[07:09:23] [Craft Scheduler Thread - 29 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mata atarasikutukuru
+[07:09:27] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <adepen1210> a-ne
+[07:09:29] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kedo saba ikousinaitomazii
+[07:09:30] [Server thread/INFO]: aika issued server command: /ei show
+[07:09:35] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tonikaku
+[07:09:41] [Craft Scheduler Thread - 24 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> donaisiyo
+[07:09:49] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] <adepen1210> github no repo nain?
+[07:09:54] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> a saba idou suru?
+[07:09:56] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] <adepen1210> cli ga mada tukaerunara
+[07:10:09] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <adepen1210> folder kei zenbu utuseru
+[07:10:14] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> toiukotoha item reset ka !?
+[07:10:14] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> cli?
+[07:10:16] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] <adepen1210> un
+[07:10:17] [Craft Scheduler Thread - 33 - InteractiveChat/INFO]: [Not Secure] <adepen1210> console
+[07:10:21] [Craft Scheduler Thread - 35 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tukaeru
+[07:10:26] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kedo
+[07:10:36] [Craft Scheduler Thread - 32 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ipad no youryoutekini dl kibiikamosirennnaaa
+[07:10:46] [Craft Scheduler Thread - 35 - InteractiveChat/INFO]: [Not Secure] <adepen1210> dl senkute yokunai?
+[07:10:49] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] <adepen1210> repo ni tumekomeba iijan
+[07:10:59] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tukkomerun?
+[07:11:02] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> un
+[07:11:04] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> console tukatte
+[07:11:06] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> ikeru
+[07:11:08] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> sirabetemi
+[07:11:08] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> how(
+[07:11:14] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> soredeha mata
+[07:11:15] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> git push
+[07:11:15] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> bye
+[07:11:19] [Server thread/INFO]: adepen1210 hit the ground too hard
+[07:11:26] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> aruiha
+[07:11:27] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[Surviver] hashi> tuff niha irutoomou
+[07:11:30] [Server thread/INFO]: hashi lost connection: Disconnected
+[07:11:30] [Server thread/INFO]: hashi left the game
+[07:11:30] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> [/https://docs.github.com/ja/codespaces/developing-in-a-codespace/using-source-control-in-your-codespace]
+[07:11:32] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kore?
+[07:11:42] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] <adepen1210> hold on
+[07:11:51] [Server thread/INFO]: adepen1210 was slain by Zombie
+[07:12:02] [Server thread/INFO]: aika issued server command: /tp adepen1210
+[07:12:02] [Server thread/INFO]: [aika: Teleported aika to adepen1210]
+[07:12:53] [Craft Scheduler Thread - 38 - InteractiveChat/INFO]: [Not Secure] <adepen1210> tatoedakedo
+[07:12:59] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> server/ tte foruda?
+[07:13:23] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> un
+[07:13:29] [Craft Scheduler Thread - 34 - InteractiveChat/INFO]: [Not Secure] <adepen1210> nara
+[07:13:40] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> pad hirakeru?
+[07:13:45] [Craft Scheduler Thread - 38 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> padlet?
+[07:13:46] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <adepen1210> waino eagler untoka no
+[07:13:48] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> room
+[07:13:54] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <adepen1210> code hattokukara
+[07:13:54] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> pc nara ikeru
+[07:13:57] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> console de
+[07:14:00] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <adepen1210> kopipe suru
+[07:14:03] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> oke ikuwa
+[07:14:29] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> oke itta
+[07:14:46] [Craft Scheduler Thread - 40 - InteractiveChat/INFO]: [Not Secure] <adepen1210> kaita
+[07:14:47] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> korewo
+[07:14:49] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> kopipe
+[07:14:52] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> consoleni
+[07:14:59] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <adepen1210> umaku ikeba
+[07:15:03] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> repo ni
+[07:15:10] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> server/ forudaga hozonsareruhazu
+[07:15:17] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> iketara
+[07:15:26] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <adepen1210> sono repo no settings itte
+[07:15:34] [Craft Scheduler Thread - 31 - InteractiveChat/INFO]: [Not Secure] <adepen1210> private kara public ni issyun akeru
+[07:15:44] [Craft Scheduler Thread - 42 - InteractiveChat/INFO]: [Not Secure] <adepen1210> sositara atarasii aka de codespaces hiraite
+[07:15:53] [Craft Scheduler Thread - 42 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> oke
+[07:15:54] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <adepen1210> git clone <repository name> de ikeru
+[07:16:07] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> reop ni folder kita?
+[07:16:17] [Craft Scheduler Thread - 39 - InteractiveChat/INFO]: [Not Secure] <adepen1210> repo ka
+[07:16:21] [Server thread/INFO]: adepen1210 issued server command: /report
+[07:16:26] [Server thread/INFO]: adepen1210 issued server command: /ver
+[07:16:44] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> aka youisuru
+[07:16:47] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <adepen1210> oke
+[07:16:56] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <adepen1210> de ato
+[07:17:02] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] <adepen1210> velo gawano pl ni
+[07:17:03] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> pc de hirakenkara oyakara kakurete ipad pakutterunyone
+[07:17:05] [Craft Scheduler Thread - 46 - InteractiveChat/INFO]: [Not Secure] <adepen1210> via irete mite
+[07:17:09] [Craft Scheduler Thread - 46 - InteractiveChat/INFO]: [Not Secure] <adepen1210> a-ne
+[07:17:09] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> oke
+[07:17:14] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ViaVersion de ok?
+[07:17:19] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <adepen1210> via un
+[07:17:21] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <adepen1210> demo
+[07:17:23] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <adepen1210> error detara
+[07:17:25] [Craft Scheduler Thread - 46 - InteractiveChat/INFO]: [Not Secure] <adepen1210> via kei zenvu
+[07:17:28] [User Authenticator #2/INFO]: UUID of player normal_ is 44480424-c5e8-3fd1-9ca5-cbf52275920b
+[07:17:30] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: aa9a6a42-0e7b-4233-b715-2d3131b4d78c, mapped to EnderMan['Enderman'/3619, uuid='aa9a6a42-0e7b-4233-b715-2d3131b4d78c', l='ServerLevel[world_the_end]', x=5199.51, y=46.00, z=2326.30, cpos=[324, 145], tl=0, v=true], can't add EnderMan['Enderman'/3621, uuid='aa9a6a42-0e7b-4233-b715-2d3131b4d78c', l='ServerLevel[world_the_end]', x=5195.72, y=44.00, z=2339.62, cpos=[324, 146], tl=0, v=false]
+[07:17:30] [Server thread/INFO]: normal_ joined the game
+[07:17:30] [Server thread/INFO]: normal_[/127.0.0.1:33924] logged in with entity id 3569 at ([world_the_end]5158.300000011921, 64.0, 2303.699999988079)
+[07:17:30] [Netty Epoll IO #0/INFO]: Disconnecting normal_ for sending keepalive response (1711202) out-of-order!
+[07:17:30] [Server thread/INFO]: normal_ lost connection: Timed out
+[07:17:31] [Server thread/INFO]: normal_ left the game
+[07:17:31] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 2d896122-f567-4386-bc66-a58f654c72b5, mapped to EnderMan['Enderman'/3610, uuid='2d896122-f567-4386-bc66-a58f654c72b5', l='ServerLevel[world_the_end]', x=5172.29, y=36.00, z=2349.51, cpos=[323, 146], tl=0, v=true], can't add EnderMan['Enderman'/3647, uuid='2d896122-f567-4386-bc66-a58f654c72b5', l='ServerLevel[world_the_end]', x=5169.20, y=38.23, z=2354.70, cpos=[323, 147], tl=0, v=false]
+[07:17:32] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ok
+[07:17:33] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> via viare via back
+[07:17:34] [User Authenticator #2/INFO]: UUID of player normal_ is 44480424-c5e8-3fd1-9ca5-cbf52275920b
+[07:17:34] [Server thread/INFO]: normal_ joined the game
+[07:17:34] [Server thread/INFO]: normal_[/127.0.0.1:47518] logged in with entity id 3650 at ([world_the_end]5158.300000011921, 64.0, 2303.699999988079)
+[07:17:36] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> im sorry aika
+[07:17:43] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> :(
+[07:17:44] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> dositan
+[07:17:50] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> datte chill dattajan
+[07:17:57] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ?
+[07:18:03] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gozentyu
+[07:18:15] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:18:15] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> sorry[
+[07:18:17] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:18:17] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:18:18] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> no
+[07:18:20] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:18:20] [Server thread/INFO]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[07:18:21] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:18:22] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:18:22] [Server thread/INFO]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[07:18:26] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:18:30] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> [/warp]ireru yotei aru?
+[07:18:31] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> i don't know ur talking about :P
+[07:18:35] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> :(
+[07:18:36] [Server thread/INFO]: adepen1210 issued server command: /warp
+[07:18:39] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:18:40] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:18:47] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> @adepen1210
+[07:18:48] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> yo :3
+[07:18:52] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] <adepen1210> ya wsp
+[07:18:56] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> adepen1210 te 1pop11?
+[07:19:00] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> yup
+[07:19:02] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:19:02] [Server thread/INFO]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[07:19:04] [Craft Scheduler Thread - 45 - InteractiveChat/INFO]: [Not Secure] <adepen1210> 1pop12 is my alt
+[07:19:05] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> 12 ne
+[07:19:10] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aw
+[07:19:12] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> tekotoha
+[07:19:15] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> katatumuri
+[07:19:16] [Craft Scheduler Thread - 48 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> toubatutai jan
+[07:19:19] [Craft Scheduler Thread - 49 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> nanka
+[07:19:21] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:19:22] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <adepen1210> ??
+[07:19:28] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika no toko hairudesyo?
+[07:19:35] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> nma hairukedomo
+[07:19:37] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:19:37] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ..
+[07:19:40] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:19:42] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> kare mata gg yaruno?...
+[07:19:44] [Craft Scheduler Thread - 49 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> oreha normal_ korosanyo
+[07:19:45] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> ban saretanoni()
+[07:19:52] [Craft Scheduler Thread - 49 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> me?
+[07:20:00] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> who? adpen
+[07:20:01] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <adepen1210> aika ga ttekoto
+[07:20:01] [Craft Scheduler Thread - 36 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ore mou gg yanan
+[07:20:07] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> mou yattenaissyo
+[07:20:12] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <adepen1210> yakara
+[07:20:13] [Craft Scheduler Thread - 49 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gg unko dayo
+[07:20:17] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> nanka code space tukaene
+[07:20:18] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <adepen1210> majika
+[07:20:21] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> un
+[07:20:25] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> mou inhure okimakutte
+[07:20:25] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> error
+[07:20:27] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> bukkoware
+[07:20:33] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <adepen1210> kusa
+[07:20:35] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <adepen1210> error?
+[07:20:38] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <adepen1210> sukusyo hattoite
+[07:20:40] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> nannnimon mo nan m to motteru
+[07:20:41] [Craft Scheduler Thread - 50 - InteractiveChat/INFO]: [Not Secure] <adepen1210> padni
+[07:20:46] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika
+[07:20:47] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> Codespace could not be created: Usage not allowed
+[07:20:48] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <adepen1210> soreha kusa
+[07:20:49] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tte deteru
+[07:20:53] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <adepen1210> ???
+[07:20:58] [Server thread/INFO]: normal_ issued server command: /msg aika gg de anvil de item no name kaeruhouhou osietehosii
+[07:21:05] [Craft Scheduler Thread - 52 - InteractiveChat/INFO]: [Not Secure] <adepen1210> new aka?
+[07:21:06] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:21:06] [Server thread/INFO]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[07:21:09] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> un
+[07:21:13] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <adepen1210> ee...
+[07:21:17] [Server thread/INFO]: normal_ issued server command: /msg aika pls
+[07:21:18] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kekkou maeni youisitetakedo
+[07:21:23] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mail ninsyoumosite
+[07:21:24] [Server thread/INFO]: normal_ issued server command: /msg aika
+[07:21:28] [Craft Scheduler Thread - 52 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> nokositeruyatu
+[07:21:30] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:21:31] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:21:34] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <adepen1210> sitara tukurusika naikanaaorega
+[07:21:37] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <adepen1210> hold sec
+[07:21:49] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> a
+[07:21:50] [Craft Scheduler Thread - 52 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika 1tu onegai ii?
+[07:21:55] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kyouka tokajanai
+[07:21:57] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ta
+[07:22:06] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> []i
+[07:22:08] [Craft Scheduler Thread - 53 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> §f[§b§f§e王冠]
+[07:22:10] [Craft Scheduler Thread - 53 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kore arjan?
+[07:22:12] [Server thread/INFO]: adepen1210 issued server command: /interactivechat viewitem 8beeff4a41fee17569708066cc306fef4cd61247
+[07:22:25] [Craft Scheduler Thread - 53 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> migi cliick no yatu
+[07:22:28] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> nakusitehosiinyo
+[07:22:31] [Craft Scheduler Thread - 51 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> betu botan ni sitehosii
+[07:22:36] [Craft Scheduler Thread - 53 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> mosi dekirunara
+[07:22:40] [Server thread/INFO]: aika issued server command: /interactivechat viewitem 8beeff4a41fee17569708066cc306fef4cd61247
+[07:22:41] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:22:41] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:22:42] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:22:48] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:22:54] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kabuttajoutaigo migikuri dakaranaa
+[07:22:58] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:22:58] [Craft Scheduler Thread - 52 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> u-n
+[07:22:59] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:00] [Craft Scheduler Thread - 52 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> a-
+[07:23:01] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:01] [Server thread/INFO]: Unable to apply this effect (target is either immune to effects, or has something stronger)
+[07:23:01] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:23:04] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> so-yukotone
+[07:23:05] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> okok
+[07:23:07] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:23:11] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> shift space tokaha muri?}
+[07:23:15] [Craft Scheduler Thread - 54 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> brain mitaini
+[07:23:16] [Craft Scheduler Thread - 52 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tyottomattene
+[07:23:20] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:20] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ok
+[07:23:23] [Craft Scheduler Thread - 44 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> shift + left click?
+[07:23:27] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> un
+[07:23:30] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:32] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:33] [Craft Scheduler Thread - 53 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kougeki janaihou
+[07:23:34] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:35] [Craft Scheduler Thread - 53 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> aka tukurinaosu
+[07:23:35] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:23:41] [Craft Scheduler Thread - 53 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> iya kougekideiika
+[07:23:52] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> shift + kougeki
+[07:23:54] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:55] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:23:56] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:24:05] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:24:05] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:24:12] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tanomu mousukosimottekure
+[07:24:15] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ok
+[07:24:16] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ik
+[07:24:17] [Craft Scheduler Thread - 58 - InteractiveChat/INFO]: [Not Secure] <adepen1210> scheibe!
+[07:24:21] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <adepen1210> kaimono ikanakya
+[07:24:23] [Craft Scheduler Thread - 58 - InteractiveChat/INFO]: [Not Secure] <adepen1210> kusogamajide
+[07:24:30] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <adepen1210> illbe comebakc
+[07:24:32] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ok
+[07:24:35] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <adepen1210> my bad
+[07:24:36] [Server thread/INFO]: adepen1210 lost connection: Disconnected
+[07:24:36] [Server thread/INFO]: adepen1210 left the game
+[07:24:48] [Craft Scheduler Thread - 58 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> nde dousita normal_ ha
+[07:24:52] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:24:58] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> shift + kougekide
+[07:24:59] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> honmani
+[07:25:01] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> hatudouni sitehosii
+[07:25:06] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> chill toka doutoka ittetakedo
+[07:25:06] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:25:12] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:25:17] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> e- gozentyuuno bokuno koudou ga gomi dattakara
+[07:25:28] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:25:28] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:25:37] [Craft Scheduler Thread - 61 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> daijoubu mou kinisitoran
+[07:25:41] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ok thanks
+[07:25:52] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gg tte madasa
+[07:25:56] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kedo mazide nenosite ittokuto
+[07:25:57] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> anvil de item no name kaereru?
+[07:25:58] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> iromo
+[07:26:00] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> oreha yuito tyauzo
+[07:26:03] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ik
+[07:26:07] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:26:09] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> itiou kaerenkotohanaikedo
+[07:26:11] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mendoi
+[07:26:15] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ik
+[07:26:23] [Craft Scheduler Thread - 62 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ik = i know?
+[07:26:26] [Craft Scheduler Thread - 61 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> un
+[07:26:26] [Server thread/INFO]: normal_ issued server command: /
+[07:26:39] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:26:48] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gg de mada
+[07:26:52] [Craft Scheduler Thread - 56 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> Anvil de item no iro kaereru?/
+[07:26:57] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:27:01] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:27:02] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:27:07] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:27:14] [Craft Scheduler Thread - 61 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> are yabe
+[07:27:17] [Craft Scheduler Thread - 61 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ?
+[07:27:25] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:27:27] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ?
+[07:27:35] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:27:37] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:27:38] [Craft Scheduler Thread - 64 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> iya ikeruwa
+[07:27:42] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> dekiruno??!
+[07:27:42] [Server thread/INFO]: normal_ issued server command: /
+[07:27:45] [Craft Scheduler Thread - 64 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> saba utusu
+[07:27:48] [Craft Scheduler Thread - 64 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> sonomaeni
+[07:27:49] [Craft Scheduler Thread - 64 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aw man
+[07:27:52] [Craft Scheduler Thread - 64 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> mate
+[07:27:54] [Craft Scheduler Thread - 65 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> utusanaito mazi
+[07:27:58] [Craft Scheduler Thread - 65 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> sonomaeni 1tu dake
+[07:28:01] [Craft Scheduler Thread - 63 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mada otinaihazu
+[07:28:04] [Craft Scheduler Thread - 65 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> saba deta to
+[07:28:13] [Craft Scheduler Thread - 63 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> data ha nokorutoomou
+[07:28:15] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kaha zenbu hikitugi ok?
+[07:28:20] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> zahyou memottahougaiiyone
+[07:28:45] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> zahyou
+[07:28:47] [Craft Scheduler Thread - 61 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> memottokuwa
+[07:29:05] [Craft Scheduler Thread - 60 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> @aika
+[07:29:06] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gg de
+[07:29:09] [Craft Scheduler Thread - 63 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> n
+[07:29:10] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> anvil de iro kaeruhouhou osietehosii
+[07:29:20] [Craft Scheduler Thread - 63 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> tokusyuna tekupa tukurana akan
+[07:29:26] [Craft Scheduler Thread - 63 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> oreja tukuren
+[07:29:29] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> alr
+[07:29:31] [Craft Scheduler Thread - 55 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> oki
+[07:29:37] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> adpen ha?
+[07:29:45] [Craft Scheduler Thread - 67 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> demo sore out?
+[07:30:18] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:30:24] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:30:24] [Server thread/INFO]: Gave 1 experience levels to normal_
+[07:30:27] [Server thread/INFO]: normal_ issued server command: /home 3
+[07:30:29] [Server thread/INFO]: normal_ issued server command: /home 3
+[07:30:32] [Server thread/INFO]: normal_ issued server command: /hoem
+[07:30:42] [Craft Scheduler Thread - 69 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ?
+[07:30:50] [Craft Scheduler Thread - 69 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ok zahyou totta
+[07:30:51] [Craft Scheduler Thread - 69 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> adepen kaimono
+[07:30:58] [Craft Scheduler Thread - 69 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aw
+[07:31:02] [Folia Async Scheduler Thread #4/INFO]: [EnhancedEchest] Auto-saved 1 changed row(s) and released 0 offline player(s) from memory in 9 ms
+[07:31:34] [Server thread/INFO]: aika lost connection: Timed out
+[07:31:34] [Server thread/INFO]: aika left the game
+[07:32:13] [Craft Scheduler Thread - 70 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika left w
+[07:32:28] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:33:54] [User Authenticator #3/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:33:55] [Server thread/INFO]: aika joined the game
+[07:33:55] [Server thread/INFO]: aika[/127.0.0.1:34496] logged in with entity id 6659 at ([world]-86.71288777523657, 120.0, -484.9450409632465)
+[07:33:56] [Netty Epoll IO #2/INFO]: Disconnecting aika for sending keepalive response (2696971) out-of-order!
+[07:33:56] [Server thread/INFO]: aika lost connection: Timed out
+[07:33:56] [Server thread/INFO]: aika left the game
+[07:33:58] [Craft Scheduler Thread - 72 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> .
+[07:34:02] [Folia Async Scheduler Thread #4/INFO]: [EnhancedEchest] Auto-saved 1 changed row(s) and released 0 offline player(s) from memory in 1 ms
+[07:34:46] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> bru
+[07:34:56] [Server thread/INFO]: normal_ issued server command: /say
+[07:34:56] [Server thread/INFO]: normal_ issued server command: /tell
+[07:34:58] [Server thread/INFO]: normal_ issued server command: /tell 1
+[07:35:00] [Server thread/INFO]: normal_ issued server command: /tell normal_ a
+[07:35:01] [Server thread/INFO]: normal_ issued server command: /
+[07:35:10] [Server thread/INFO]: normal_ issued server command: /tell aika w
+[07:35:12] [Server thread/INFO]: normal_ issued server command: /tell @e
+[07:35:13] [Server thread/INFO]: normal_ issued server command: /tell @e a
+[07:35:15] [Server thread/INFO]: normal_ issued server command: /tell @a
+[07:35:15] [Server thread/INFO]: normal_ issued server command: /
+[07:35:18] [User Authenticator #4/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:35:20] [Server thread/INFO]: aika joined the game
+[07:35:20] [Server thread/INFO]: aika[/127.0.0.1:55612] logged in with entity id 6942 at ([world]-86.71288777523657, 120.0, -484.9450409632465)
+[07:35:21] [Netty Epoll IO #3/INFO]: Disconnecting aika for sending keepalive response (2782307) out-of-order!
+[07:35:21] [Server thread/INFO]: aika lost connection: Timed out
+[07:35:24] [Server thread/INFO]: aika left the game
+[07:35:24] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ya
+[07:35:27] [User Authenticator #4/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:35:28] [Server thread/INFO]: aika joined the game
+[07:35:28] [Server thread/INFO]: aika[/127.0.0.1:34184] logged in with entity id 6994 at ([world]-86.71288777523657, 120.0, -484.9450409632465)
+[07:35:29] [Craft Scheduler Thread - 74 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> uh
+[07:35:30] [Craft Scheduler Thread - 75 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ya
+[07:35:34] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> idoudekitaaaaawwwwww
+[07:35:37] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> adepen kamisugi ;-;
+[07:35:42] [Craft Scheduler Thread - 71 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> jaa idou suru?
+[07:35:44] [Craft Scheduler Thread - 76 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> new ip hosiikamo
+[07:35:46] [Craft Scheduler Thread - 76 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mazi kami ;-;
+[07:35:46] [Craft Scheduler Thread - 74 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> [/]de pls
+[07:35:47] [Craft Scheduler Thread - 74 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> god
+[07:35:48] [Craft Scheduler Thread - 76 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> nice
+[07:35:59] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> Backup plugin gomikasu fk
+[07:36:05] [Craft Scheduler Thread - 74 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ww
+[07:36:08] [Craft Scheduler Thread - 71 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> W adepen L Backup Plugin
+[07:36:11] [Craft Scheduler Thread - 71 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ww
+[07:36:13] [Server thread/INFO]: normal_ issued server command: /WWWW
+[07:36:16] [Craft Scheduler Thread - 76 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> WWWW Adpen
+[07:36:18] [Craft Scheduler Thread - 76 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> WWWW Adepen
+[07:36:20] [Craft Scheduler Thread - 76 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> WWWWWWWW
+[07:36:26] [Craft Scheduler Thread - 76 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> adepen gati tensaidawa
+[07:36:33] [Craft Scheduler Thread - 66 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> god;-;
+[07:36:52] [Server thread/INFO]: Applied effect Speed to normal_
+[07:37:33] [Craft Scheduler Thread - 71 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> a waitw
+[07:37:36] [Craft Scheduler Thread - 79 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ?
+[07:39:16] [Server thread/INFO]: aika was kicked due to keepalive timeout!
+[07:39:16] [Server thread/INFO]: aika lost connection: Timed out
+[07:39:16] [Server thread/INFO]: aika left the game
+[07:39:44] [User Authenticator #5/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:39:44] [Server thread/INFO]: aika joined the game
+[07:39:44] [Server thread/INFO]: aika[/127.0.0.1:38538] logged in with entity id 7919 at ([world]-86.71288777523657, 120.0, -484.9450409632465)
+[07:40:02] [Folia Async Scheduler Thread #6/INFO]: [EnhancedEchest] Auto-saved 1 changed row(s) and released 0 offline player(s) from memory in 1 ms
+[07:40:28] [Craft Scheduler Thread - 83 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> are
+[07:41:19] [Server thread/INFO]: aika lost connection: Timed out
+[07:41:19] [Server thread/INFO]: aika left the game
+[07:41:41] [Craft Scheduler Thread - 84 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> im back
+[07:42:44] [User Authenticator #6/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:42:44] [Server thread/INFO]: aika joined the game
+[07:42:44] [Server thread/INFO]: aika[/127.0.0.1:43190] logged in with entity id 8466 at ([world]-86.09856288999258, 120.0, -485.1260316047972)
+[07:42:47] [Craft Scheduler Thread - 84 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> yo aika
+[07:42:58] [Craft Scheduler Thread - 87 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> are bug kana
+[07:43:00] [Craft Scheduler Thread - 87 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ima vhall tukutteru
+[07:43:02] [Craft Scheduler Thread - 87 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ?
+[07:43:11] [Craft Scheduler Thread - 79 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> donna?
+[07:43:49] [Server thread/INFO]: aika lost connection: Timed out
+[07:43:49] [Server thread/INFO]: aika left the game
+[07:43:58] [Craft Scheduler Thread - 87 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ?
+[07:44:34] [Server thread/INFO]: Played sound minecraft:entity.player.hurt_drown to normal_
+[07:44:36] [Server thread/INFO]: Played sound minecraft:entity.player.hurt_drown to normal_
+[07:44:37] [Server thread/INFO]: Played sound minecraft:entity.player.hurt_drown to normal_
+[07:44:37] [Server thread/INFO]: Played sound minecraft:entity.player.hurt_drown to normal_
+[07:44:38] [Server thread/INFO]: Applied effect Regeneration to normal_
+[07:44:38] [Server thread/INFO]: Played sound minecraft:entity.player.hurt_drown to normal_
+[07:44:39] [Server thread/INFO]: Played sound minecraft:entity.player.hurt_drown to normal_
+[07:45:01] [Craft Scheduler Thread - 88 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kita-
+[07:45:04] [Craft Scheduler Thread - 89 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> perfect
+[07:45:34] [Server thread/INFO]: Applied effect Speed to normal_
+[07:45:51] [User Authenticator #7/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:45:52] [Server thread/INFO]: aika joined the game
+[07:45:52] [Server thread/INFO]: aika[/127.0.0.1:55522] logged in with entity id 9027 at ([world]-85.8465860332866, 120.0, -484.9818047945117)
+[07:45:55] [Craft Scheduler Thread - 92 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> nanka bug tteru
+[07:46:00] [Craft Scheduler Thread - 92 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> dounatten
+[07:46:03] [Craft Scheduler Thread - 92 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> commit dekinai
+[07:46:08] [Craft Scheduler Thread - 92 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> command?
+[07:46:09] [Craft Scheduler Thread - 91 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> commit?
+[07:46:11] [Craft Scheduler Thread - 91 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> what commit
+[07:46:47] [Server thread/INFO]: aika lost connection: Timed out
+[07:46:47] [Server thread/INFO]: aika left the game
+[07:47:43] [Craft Scheduler Thread - 95 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> tt
+[07:48:19] [Craft Scheduler Thread - 96 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> @aika
+[07:48:41] [Craft Scheduler Thread - 97 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> item hueta()
+[07:48:51] [Craft Scheduler Thread - 97 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> korya yabaize
+[07:49:02] [Folia Async Scheduler Thread #6/INFO]: [EnhancedEchest] Auto-saved 1 changed row(s) and released 0 offline player(s) from memory in 1 ms
+[07:49:27] [Craft Scheduler Thread - 95 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> oreno kubiga
+[07:49:29] [Craft Scheduler Thread - 96 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> tonjimau
+[07:49:41] [Craft Scheduler Thread - 95 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> a- unko
+[07:49:55] [Server thread/INFO]: normal_ issued server command: /home 3
+[07:49:57] [Craft Scheduler Thread - 100 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> u ru scuks
+[07:52:02] [Folia Async Scheduler Thread #9/INFO]: [EnhancedEchest] Auto-saved 1 changed row(s) and released 0 offline player(s) from memory in 9 ms
+[07:52:32] [Server thread/INFO]: Applied effect Speed to normal_
+[07:52:36] [User Authenticator #8/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:52:37] [Server thread/INFO]: aika joined the game
+[07:52:37] [Server thread/INFO]: aika[/127.0.0.1:48186] logged in with entity id 9861 at ([world]-85.8465860332866, 120.0, -484.9818047945117)
+[07:52:43] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika im making vhall
+[07:54:59] [Server thread/INFO]: aika lost connection: Timed out
+[07:55:00] [Server thread/INFO]: aika left the game
+[07:55:02] [Folia Async Scheduler Thread #9/INFO]: [EnhancedEchest] Auto-saved 0 changed row(s) and released 1 offline player(s) from memory in 0 ms
+[07:55:03] [Craft Scheduler Thread - 109 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> are aika itanka ima
+[07:56:49] [Craft Scheduler Thread - 113 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gngngn
+[07:56:51] [Craft Scheduler Thread - 109 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gngngng
+[07:57:00] [User Authenticator #9/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:57:01] [Server thread/INFO]: aika joined the game
+[07:57:01] [Server thread/INFO]: aika[/127.0.0.1:40264] logged in with entity id 10649 at ([world]-84.17266725578071, 122.53292827534491, -485.67266448941456)
+[07:57:03] [Netty Epoll IO #1/INFO]: Disconnecting aika for sending keepalive response (4083657) out-of-order!
+[07:57:03] [Server thread/INFO]: aika lost connection: Timed out
+[07:57:03] [Server thread/INFO]: aika left the game
+[07:57:08] [User Authenticator #9/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[07:57:08] [Server thread/INFO]: aika joined the game
+[07:57:08] [Server thread/INFO]: aika[/127.0.0.1:45540] logged in with entity id 10688 at ([world]-84.17266725578071, 120.0, -485.67266448941456)
+[07:57:12] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> bagutta darusugi
+[07:57:14] [Craft Scheduler Thread - 112 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> fah?
+[07:57:16] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kimo(
+[07:57:18] [Server thread/INFO]: aika issued server command: /pl
+[07:57:21] [Craft Scheduler Thread - 113 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> koitumo bug tteruyo
+[07:57:26] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ?
+[07:57:28] [Server thread/INFO]: aika issued server command: /tp normal_
+[07:57:28] [Server thread/INFO]: [aika: Teleported aika to normal_]
+[07:57:28] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> syokugyou tukanakunatta
+[07:57:32] [Craft Scheduler Thread - 113 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kono bak
+[07:57:34] [Server thread/INFO]: aika issued server command: /gamemode spectator
+[07:57:34] [Server thread/INFO]: [aika: Set own game mode to Spectator Mode]
+[07:57:36] [Server thread/INFO]: aika issued server command: /gamemode creative
+[07:57:36] [Server thread/INFO]: [aika: Set own game mode to Creative Mode]
+[07:57:37] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> syokugyou tukan
+[07:57:38] [Server thread/INFO]: aika issued server command: /time set day
+[07:57:38] [Server thread/INFO]: [aika: Set the time to 1000]
+[07:57:39] [Server thread/INFO]: aika issued server command: /gamemode spectator
+[07:57:39] [Server thread/INFO]: [aika: Set own game mode to Spectator Mode]
+[07:57:39] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> server bug?
+[07:57:43] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> no
+[07:57:44] [Server thread/INFO]: aika issued server command: /gamemode creative
+[07:57:44] [Server thread/INFO]: [aika: Set own game mode to Creative Mode]
+[07:57:53] [Server thread/INFO]: aika issued server command: /give aika minecraft:lectern
+[07:57:53] [Server thread/INFO]: [aika: Gave 1 [Lectern] to aika]
+[07:57:53] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> doitumo koitumo syokugyoutukanainoo nande?
+[07:58:02] [Folia Async Scheduler Thread #9/INFO]: [EnhancedEchest] Auto-saved 1 changed row(s) and released 0 offline player(s) from memory in 4 ms
+[07:58:05] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> koitu tuiteru
+[07:58:14] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> koitumo
+[07:58:18] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> demo kore yaruto wakarannarukara 1ko zutu
+[07:58:23] [Craft Scheduler Thread - 113 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> triple neat
+[07:58:27] [Craft Scheduler Thread - 113 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> neat korosite
+[07:58:30] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> iy amte
+[07:58:34] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> hidari hutariha
+[07:58:36] [Craft Scheduler Thread - 114 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> saki tuita
+[07:58:41] [Craft Scheduler Thread - 115 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> koitu?
+[07:58:44] [Server thread/INFO]: Villager Villager['Villager'/5931, uuid='170e4cbd-7171-4eb8-b474-fead9f4c6743', l='ServerLevel[world]', x=-113911.50, y=60.00, z=90661.30, cpos=[-7120, 5666], tl=33744, v=true] died, message: 'Villager was slain by aika'
+[07:58:48] [Craft Scheduler Thread - 117 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kuso neat
+[07:58:49] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> bye bye neat
+[07:59:03] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> villagr spawnnegg 128 ko kawanait_()
+[07:59:11] [Craft Scheduler Thread - 105 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> koitumo neat?
+[07:59:26] [Server thread/INFO]: Villager Villager['Villager'/5932, uuid='ff0f5fca-f3e4-4d1b-8298-1bfeee500a38', l='ServerLevel[world]', x=-113911.50, y=60.05, z=90655.30, cpos=[-7120, 5665], tl=34595, v=true] died, message: 'Villager was slain by normal_'
+[07:59:41] [Craft Scheduler Thread - 113 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> koitu mo neat?
+[08:00:08] [spark-async-sampler-worker-thread/WARN]: [spark] Exception occurred while rotating profiler job
+me.lucko.spark.paper.common.sampler.async.JfrParsingException: Error parsing JFR data from profiler output - file plugins/spark/tmp/spark-3d3f5d516b6-profile-data.jfr.tmp does not exist!
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:223) ~[spark-paper-1.10.152.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncSampler.rotateProfilerJob(AsyncSampler.java:159) ~[spark-paper-1.10.152.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:369) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:310) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.nio.file.NoSuchFileException: plugins/spark/tmp/spark-3d3f5d516b6-profile-data.jfr.tmp
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:301) ~[?:?]
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:353) ~[?:?]
+	at me.lucko.spark.paper.common.sampler.async.jfr.JfrReader.<init>(JfrReader.java:83) ~[spark-paper-1.10.152.jar:?]
+	at me.lucko.spark.paper.common.sampler.async.AsyncProfilerJob.aggregate(AsyncProfilerJob.java:210) ~[spark-paper-1.10.152.jar:?]
+	... 7 more
+[08:00:23] [Craft Scheduler Thread - 119 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> tukanee
+[08:00:44] [Craft Scheduler Thread - 119 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> many neat guys
+[08:00:44] [Server thread/INFO]: aika issued server command: /gamemode spectator
+[08:00:44] [Server thread/INFO]: [aika: Set own game mode to Spectator Mode]
+[08:00:45] [Server thread/INFO]: aika issued server command: /gamemode creative
+[08:00:45] [Server thread/INFO]: [aika: Set own game mode to Creative Mode]
+[08:00:48] [Server thread/INFO]: aika issued server command: /time set day
+[08:00:48] [Server thread/INFO]: [aika: Set the time to 1000]
+[08:00:51] [Server thread/INFO]: aika issued server command: /weather clear
+[08:00:51] [Server thread/INFO]: [aika: Set the weather to clear]
+[08:00:52] [Server thread/INFO]: aika issued server command: /gamemode spectator
+[08:00:52] [Server thread/INFO]: [aika: Set own game mode to Spectator Mode]
+[08:00:52] [Server thread/INFO]: aika issued server command: /gamemode creative
+[08:00:52] [Server thread/INFO]: [aika: Set own game mode to Creative Mode]
+[08:01:02] [Folia Async Scheduler Thread #13/INFO]: [EnhancedEchest] Auto-saved 1 changed row(s) and released 0 offline player(s) from memory in 2 ms
+[08:01:03] [Craft Scheduler Thread - 120 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> no
+[08:01:08] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> koitusa saki ha uita
+[08:01:14] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> nande tukanain?
+[08:01:16] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ima asadayo
+[08:01:27] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> unko neat
+[08:01:47] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> hatarake syatikudomo
+[08:02:03] [Craft Scheduler Thread - 121 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> mou owarijane aika
+[08:02:08] [Server thread/INFO]: aika issued server command: /gamemode spectator
+[08:02:08] [Server thread/INFO]: [aika: Set own game mode to Spectator Mode]
+[08:02:09] [Server thread/INFO]: aika issued server command: /gamemode creative
+[08:02:09] [Server thread/INFO]: [aika: Set own game mode to Creative Mode]
+[08:02:19] [Craft Scheduler Thread - 120 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> wait mada backup torenaindaga
+[08:02:21] [Craft Scheduler Thread - 120 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> 1masu block yan
+[08:02:23] [Craft Scheduler Thread - 120 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ;-;
+[08:02:36] [Craft Scheduler Thread - 116 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mazi darui(
+[08:02:40] [Craft Scheduler Thread - 120 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> w
+[08:02:41] [Craft Scheduler Thread - 120 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> nande bagutte kietan
+[08:02:47] [Craft Scheduler Thread - 120 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kore tibi murabito koererunka.
+[08:03:00] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> gay nan?
+[08:03:04] [Craft Scheduler Thread - 123 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> kono terminal
+[08:03:07] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> sibakuzo
+[08:03:07] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika
+[08:03:08] [Server thread/INFO]: aika issued server command: /gamemode spectator
+[08:03:08] [Server thread/INFO]: [aika: Set own game mode to Spectator Mode]
+[08:03:10] [Server thread/INFO]: aika issued server command: /gamemode creative
+[08:03:10] [Server thread/INFO]: [aika: Set own game mode to Creative Mode]
+[08:03:10] [Craft Scheduler Thread - 123 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> name tag ytoudai
+[08:03:11] [Craft Scheduler Thread - 123 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> honma
+[08:03:13] [Server thread/INFO]: aika issued server command: /gamemode spectator
+[08:03:13] [Server thread/INFO]: [aika: Set own game mode to Spectator Mode]
+[08:03:15] [Server thread/INFO]: aika issued server command: /gamemode creative
+[08:03:15] [Server thread/INFO]: [aika: Set own game mode to Creative Mode]
+[08:03:16] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> Gay te tukeru
+[08:03:22] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> 4tu
+[08:03:23] [Server thread/INFO]: aika issued server command: /give aika name_tag
+[08:03:23] [Server thread/INFO]: [aika: Gave 1 [Name Tag] to aika]
+[08:03:31] [Server thread/INFO]: aika issued server command: /ie rename &6&lGay
+[08:03:33] [Craft Scheduler Thread - 126 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> xp ha aru
+[08:03:40] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ww
+[08:03:46] [Craft Scheduler Thread - 126 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fk spark
+[08:03:47] [Craft Scheduler Thread - 126 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> die
+[08:03:48] [Craft Scheduler Thread - 126 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> matte
+[08:03:50] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gay tuitaww
+[08:03:56] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> youyaku syuusyokusitaww
+[08:04:03] [Craft Scheduler Thread - 126 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> spark u suck
+[08:04:05] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> holy
+[08:04:12] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika nice
+[08:04:14] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mazi spark sineyo
+[08:04:15] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> gay sigoto tukurwa
+[08:04:22] [Craft Scheduler Thread - 128 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> ha? kimo mazi
+[08:04:25] [Craft Scheduler Thread - 128 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> yuunou gay
+[08:04:30] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> dounattennno
+[08:04:41] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> mou mazi spark kimoitteeeeeeee
+[08:04:42] [Craft Scheduler Thread - 129 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:43] [Craft Scheduler Thread - 129 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:44] [Craft Scheduler Thread - 129 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:44] [Craft Scheduler Thread - 129 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:44] [Craft Scheduler Thread - 129 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:44] [Craft Scheduler Thread - 129 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:45] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:45] [Craft Scheduler Thread - 125 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:45] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:46] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:46] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:04:46] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> fkkkkkkkkkkkkk
+[08:05:03] [Craft Scheduler Thread - 130 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> ii enchant ureyo kasu
+[08:05:16] [Craft Scheduler Thread - 131 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> 33 fether falling is scam
+[08:05:53] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> spark sine
+[08:05:57] [Craft Scheduler Thread - 131 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> what spark
+[08:06:01] [Craft Scheduler Thread - 129 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> zutto jamasika senyan
+[08:06:03] [Server thread/INFO]: aika issued server command: /spark
+[08:06:05] [Server thread/INFO]: aika issued server command: /spark help
+[08:06:06] [Craft Scheduler Thread - 131 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> bru
+[08:06:15] [Server thread/INFO]: aika issued server command: /spark healthreport
+[08:06:19] [Server thread/INFO]: aika issued server command: /spark healthreport
+[08:06:21] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> aika
+[08:06:25] [Craft Scheduler Thread - 127 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> Thorn III eme 13 dou?
+[08:06:29] [Craft Scheduler Thread - 131 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> kekkou yoki?
+[08:06:36] [Craft Scheduler Thread - 132 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> saba ittan tometeii?
+[08:06:42] [Craft Scheduler Thread - 131 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> :skull:
+[08:06:51] [Craft Scheduler Thread - 130 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> GPT ni kiitara toziro iwareta
+[08:06:54] [Craft Scheduler Thread - 132 - InteractiveChat/INFO]: [Not Secure] <[GG] normal_> its ok..
+[08:06:56] [Craft Scheduler Thread - 130 - InteractiveChat/INFO]: [Not Secure] <[apym] aika> data ha roruba sen
+[08:06:58] [Server thread/INFO]: aika issued server command: /stop
+[08:06:58] [Server thread/INFO]: [aika: Stopping the server]
+[08:06:58] [Server thread/INFO]: Stopping server
+[08:06:58] [Server thread/INFO]: [OrbitalStrike] Disabling OrbitalStrike v2.0.0
+[08:06:58] [Server thread/INFO]: [OrbitalStrikeCannon] OrbitalStrikeCannon plugin disabled!
+[08:06:58] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v8.0
+[08:06:58] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[08:06:58] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been disabled on version 8.0
+[08:06:58] [Server thread/INFO]: [LiteBans] Disabling LiteBans v2.18.6
+[08:06:59] [Server thread/INFO]: [LiteBans] v2.18.6 disabled.
+[08:06:59] [Server thread/INFO]: [Backuper] Disabling Backuper v4.1.0
+[08:06:59] [Server thread/WARN]: [Backuper] Failed to save size cache to disk!
+[08:07:36] [User Authenticator #10/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273
+[08:07:57] [User Authenticator #10/INFO]: UUID of player Ice_END_Queen is d79a2768-3193-39f4-b071-b8d979be3ab0
+[08:08:11] [User Authenticator #10/INFO]: UUID of player aika is 021cc1e0-00e8-362f-82c5-891c6c08c273

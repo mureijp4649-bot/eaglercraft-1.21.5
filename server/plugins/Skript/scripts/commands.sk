@@ -1,0 +1,45 @@
+
+#
+# A very simple `broadcast` command for broadcasting the text argument.
+# This is accessible only to users with the `skript.example.broadcast` permission.
+#
+
+command /broadcast <text>:
+	permission: skript.example.broadcast
+	description: Broadcasts a message to everybody.
+	trigger:
+		broadcast arg-text
+
+#
+# A simple /home command that allows players to set, remove and travel to homes.
+# This command is executable only by players, and has a `correct usage` message.
+# The first argument is required, whereas the second is optional.
+
+#
+# An /item command that accepts Skript item aliases.
+# E.g. `/item birch plank, 5 red wool and 17 iron ore`
+# This command has aliases - alternative versions of the command that can be used.
+#
+
+aliases:
+	# Creates an alias `blacklisted` for this list of items.
+	blacklisted = TNT, bedrock, obsidian, spawner, lava, lava bucket
+
+command /item <items>:
+	description: Give yourself some items.
+	usage: /item <items...>
+	aliases: /i
+	executable by: players
+	permission: skript.example.item
+	cooldown: 30 seconds
+	cooldown message: You need to wait %remaining time% to use this command again.
+	cooldown bypass: skript.example.cooldown
+	trigger:
+		if player has permission "skript.example.item.all":
+			give argument to player
+		else:
+			loop argument:
+				if loop-item is not blacklisted:
+					give loop-item to player
+				else:
+					send "<red>%loop-item%<reset> is blacklisted and cannot be spawned." to player

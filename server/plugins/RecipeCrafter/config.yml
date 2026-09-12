@@ -1,0 +1,49 @@
+global_enabled: true
+
+crafting:
+  max_bulk_crafts: 64
+
+recipe_book:
+  discover_all: true
+
+chat_crafting:
+  cooldown_seconds: 60
+
+updates:
+  check: true
+  auto_download: false
+  channel: release
+
+check_updates: true
+auto_update: false
+
+completed_recipe_barrier_name: <#8FD6B5><b>Already crafted</b>
+completed_recipe_barrier_lore:
+- <#A9C2DA>This unique recipe has already been crafted.
+- '<#7892AA>Crafter: <white>%player%'
+
+viewer:
+  locked_placeholder:
+    head_texture: default
+    material: BARRIER
+    name: <#DCE8F5><b>???</b>
+
+gui_pages:
+  '0':
+    size: 54
+    title: <#DCE8F5><b>Recipes</b> <#526A82>• Page 1
+    filler: GRAY_STAINED_GLASS_PANE
+    permission: ''
+    navigation:
+      previous:
+        name: <#DCE8F5><b>Previous page</b>
+        lore:
+        - <#A9C2DA>Page %page%
+      next:
+        name: <#DCE8F5><b>Next page</b>
+        lore:
+        - <#A9C2DA>Page %page%
+
+ui:
+  default_category: General
+  sounds: true
